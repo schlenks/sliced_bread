@@ -1,0 +1,14 @@
+version: 1.0
+configuration:
+  has_webserver: true
+  scoring:
+    command: "bundle install && rake db:migrate RAILS_ENV=test && RAILS_ENV=test bundle exec rspec --format RspecJunitFormatter --out unit.xml"
+    files:
+      - unit.xml
+  ide_config:
+    default_open_files:
+      - Gemfile
+    project_menu:
+      run: rails s -p 3000
+      install: bundle install
+      test: RAILS_ENV=test rspec --format RspecJunitFormatter --out unit.xml

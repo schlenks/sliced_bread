@@ -1,0 +1,30 @@
+require: 
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec # or rubocop-minitest
+  
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'bin/**/**'
+    - 'config/**/*'
+    - 'db/**/*'
+    - 'node_modules/**/**'
+    - 'script/**/*'
+    - 'vendor/**/*'
+    
+
+Layout/LineLength:
+  Max: 120
+
+Metrics/BlockLength:
+  Exclude:
+    - config/**/*
+    - spec/**/*
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - spec/**/*
+
+Style/Documentation:
+  Enabled: false

@@ -1,0 +1,50 @@
+#
+# PROJECT SPECIFIC IGNORES
+#
+.git
+Dockerfile
+docker-compose.yml
+.dockerignore
+.docker-sync
+
+# OS specific files
+.DS_Store
+
+# RUBY IGNORES
+*.gem
+*.rbc
+/coverage/
+capybara-*.html
+.rspec
+/log
+/tmp
+/public/system
+/spec/tmp
+
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+## Environment normalization:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore node_modules
+node_modules/
+
+# Ignore precompiled javascript packs
+/public/packs
+/public/packs-test
+/public/assets
+
+# Ignore yarn files
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity

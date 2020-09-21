@@ -1,0 +1,53 @@
+version: "3.8"
+services:
+  app_ruby:
+    build: .
+    ports:
+      - "8080:3000"
+    depends_on:
+      - dbruby
+      - redis_ruby
+      # - cache
+    volumes:
+      - sliced_bread_ruby-files:/app:nocopy
+      - bundle_path:/bundle
+      - node_modules_ruby:/app/node_modules
+      - yarn_ruby_cache:/usr/local/share/.cache/yarn/
+    environment:
+      - BUNDLE_PATH=/bundle/vendor
+      - DB_USER=sliced_bread
+      - PERF_MODE=false
+      - DEV_DB_URL=postgres://dbruby:5432/sliced_bread_development
+      - TEST_DB_URL='postgres://dbruby:5432/sliced_bread_test'
+      - PROD_DB_URL='postgres://dbruby:5432/sliced_bread_production'
+      - REDIS_URL=redis://redis_ruby:6379
+    command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
+
+  dbruby:
+    image: postgres:latest
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+      - POSTGRES_PASSWORD=
+      - POSTGRES_USER=sliced_bread
+      - POSTGRES_DB=sliced_bread_development
+    ports:
+      - "5432:5432"
+    volumes:
+      - database_ruby-volume:/var/lib/postgresql/data
+
+  redis_ruby:
+    image: redis:latest
+    volumes:
+      - redis_ruby-volume:/data
+
+  # cache_ruby:
+  #   image: memcached:alpine
+
+volumes:
+  database_ruby-volume:
+  redis_ruby-volume:
+  bundle_path:
+  node_modules_ruby:
+  yarn_ruby_cache:
+  sliced_bread_ruby-files:
+    external: true

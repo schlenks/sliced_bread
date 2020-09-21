@@ -1,0 +1,142 @@
+#! /bin/bash
+
+set -e
+
+app-installs() {
+  echo "🚧 Do: app_elixir installs & updates"
+  mix-update
+  echo "🚧 Do: Installs & updates finished."
+}
+
+build() {
+  echo "🚧 Do: Building docker containers."
+  docker-sync start
+  COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose build app_elixir
+}
+
+install-docker-sync() {
+  echo "🐳 Do: Install docker-sync"
+  gem install docker-sync
+}
+
+lint() {
+  echo "🚧 Do: Running linters"
+  docker-compose run --rm app_elixir mix credo
+}
+
+migrate-db() {
+  echo "🚧 Do: Running migrations"
+  docker-compose run --rm app_elixir mix ecto.migrate
+}
+
+mix() {
+  docker-compose run --rm app_elixir mix $ACTION_ARG
+}
+
+mix-update() {
+  echo "🚧 Do: Run bundle install."
+  docker-compose run --rm app_elixir mix deps.get
+  docker-compose run --rm app_elixir mix deps.update --all
+}
+
+perf() {
+  echo "🏎  Do: Performance benchmarking"
+  ab -c 30 -n 50000 "http://127.0.0.1:8080/"
+}
+
+prepare-test() {
+  docker-compose run --rm app_elixir mix ecto.create
+  docker-compose run --rm app_elixir mix ecto.migrate
+}
+
+test() {
+  if [[ -z "$ACTION_ARG" ]]
+  then
+    echo "🧪 Do: Running all mix tests"
+    docker-compose run --rm app_elixir mix test
+  else
+    echo "🧪 Do: Running your single test 👉 $ACTION_ARG"
+    docker-compose run --rm app_elixir mix test $ACTION_ARG
+  fi
+}
+
+start() {
+  stop
+  app-installs
+  docker-sync start
+  migrate-db
+  docker-compose -e MIX_ENV=prod up
+}
+
+stop() {
+  echo "✋ Do: Stopping docker containers."
+  docker-compose stop
+  docker-sync stop
+}
+
+shell() {
+  case "${ACTION_ARG}" in
+    app)
+      echo "🐚 Do: Open a shell on the app_elixir container."
+      docker exec -it sliced_bread_app_elixir_1 bash
+    ;;
+    db)
+      echo "🐚 Do: Open a shell on the db container."
+      docker exec -it sliced_bread_dbelixir_1 psql -U sliced_bread sliced_bread_development
+    ;;
+    *)
+      echo "⚠️  Unknown action. Please use 'app' or 'db' with the shell command."
+    ;;
+  esac
+}
+
+echo "🍞 Welcome to Sliced Bread (Elixir) 🍞"
+ACTION=$1
+ACTION_ARG=$2
+
+case "${ACTION}" in
+  bootstrap)
+    install-docker-sync
+  ;;
+  build)
+    stop
+    build
+    app-installs
+    prepare-test
+    echo "👍 Build complete."
+  ;;
+  console)
+    app-console
+  ;;
+  install)
+    app-installs
+  ;;
+  lint)
+    lint
+  ;;
+  migrate)
+    migrate-db
+  ;;
+  mix)
+    mix
+  ;;
+  perf)
+    perf
+  ;;
+  shell)
+    shell
+  ;;
+  start)
+    stop
+    docker-sync-stack start
+  ;;
+  stop)
+    stop
+  ;;
+  test)
+    test
+  ;;
+  *)
+    echo "⚠️  Unknown action. Please use 'bootstrap', 'build', 'install', 'lint', 'migrate', 'mix', 'perf', 'test', 'shell', 'start', 'stop'"
+  ;;
+esac

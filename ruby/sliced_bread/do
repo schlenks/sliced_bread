@@ -1,0 +1,134 @@
+#! /bin/bash
+
+set -e
+
+app-installs() {
+  echo "🚧 Do: yarn install & rails install."
+  bundle-install
+  yarn-install
+  echo "🚧 Do: Installs finished."
+}
+
+build() {
+  echo "🚧 Do: Building docker containers."
+  docker-sync start
+  COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose build app_ruby
+}
+
+bundle-install() {
+  echo "🚧 Do: Run bundle install."
+  docker-compose run --rm app_ruby bundle install --jobs=4
+}
+
+install-docker-sync() {
+  echo "🐳 Do: Install docker-sync"
+  gem install docker-sync
+}
+
+lint() {
+  echo "🚧 Do: Running linters"
+  docker-compose run --rm app_ruby bundle exec rubocop
+}
+
+migrate-db() {
+  echo "🚧 Do: Running migrations"
+  docker-compose run --rm app_ruby bundle exec rake db:migrate:with_data
+}
+
+perf() {
+  echo "🏎  Do: Performance benchmarking"
+  ab -c 30 -n 12000 "http://127.0.0.1:8080/"
+}
+
+prepare-test() {
+  docker-compose run --rm app_ruby bundle exec rails db:prepare
+}
+
+test() {
+  if [[ -z "$ACTION_ARG" ]]
+  then
+    echo "🧪 Do: Running all tests"
+    prepare-test
+    docker-compose run --rm -e RAILS_ENV=test app_ruby bundle exec rspec
+  else
+    echo "🧪 Do: Running your single test 👉 $ACTION_ARG"
+    docker-compose run --rm -e RAILS_ENV=test app_ruby bundle exec rspec $ACTION_ARG
+  fi
+}
+
+start() {
+  docker-sync start
+  docker-compose -e RAILS_ENV=production up
+}
+
+stop() {
+  echo "✋ Do: Stopping docker containers."
+  docker-compose stop
+  docker-sync stop
+}
+
+shell() {
+  case "${ACTION_ARG}" in
+    app)
+      echo "🐚 Do: Open a shell on the app_ruby container."
+      docker exec -it sliced_bread_app_ruby_1 bash
+    ;;
+    db)
+      echo "🐚 Do: Open a shell on the db container."
+      docker exec -it sliced_bread_dbruby_1 psql -U sliced_bread sliced_bread_development
+    ;;
+    *)
+      echo "⚠️  Unknown action. Please use 'app' or 'db' with the shell command."
+    ;;
+  esac
+}
+
+yarn-install() {
+  echo "🚧 Do: Run yarn install."
+  docker-compose run --rm app_ruby yarn install
+}
+
+echo "🍞 Welcome to Sliced Bread (Ruby) 🍞"
+ACTION=$1
+ACTION_ARG=$2
+
+case "${ACTION}" in
+  bootstrap)
+    install-docker-sync
+  ;;
+  build)
+    stop
+    build
+    app-installs
+    prepare-test
+    echo "👍 Build complete."
+  ;;
+  install)
+    app-installs
+  ;;
+  lint)
+    lint
+  ;;
+  migrate)
+    migrate-db
+  ;;
+  perf)
+    perf
+  ;;
+  shell)
+    shell
+  ;;
+  start)
+    stop
+    docker-sync-stack start
+  ;;
+  stop)
+    stop
+  ;;
+  test)
+    test
+  ;;
+  *)
+    echo "⚠️  Unknown action. Please use 'bootstrap', 'build', 'install', 'lint', 'migrate', 'perf', 'test', 'shell', 'start', 'stop'"
+  ;;
+esac

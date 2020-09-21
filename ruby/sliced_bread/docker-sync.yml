@@ -1,0 +1,6 @@
+version: "2"
+syncs:
+  sliced_bread_ruby-files:
+    notify_terminal: true
+    src: './'
+    sync_excludes: ['.git', '.idea', 'log', 'node_modules', 'tmp']

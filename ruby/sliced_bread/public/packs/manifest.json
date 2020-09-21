@@ -1,0 +1,46 @@
+{
+  "application.js": "/packs/js/application-296a25e58ab56162f2d7.chunk.js",
+  "application.js.map": "/packs/js/application-296a25e58ab56162f2d7.chunk.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/runtime~application-aa001ceb574a6f67800d.js",
+        "/packs/js/vendors~application~hello_react-15bc308bd2891a4ac86c.chunk.js",
+        "/packs/js/vendors~application-ed0090f9b63e3d2106a0.chunk.js",
+        "/packs/js/application-296a25e58ab56162f2d7.chunk.js"
+      ],
+      "js.map": [
+        "/packs/js/runtime~application-aa001ceb574a6f67800d.js.map",
+        "/packs/js/vendors~application~hello_react-15bc308bd2891a4ac86c.chunk.js.map",
+        "/packs/js/vendors~application-ed0090f9b63e3d2106a0.chunk.js.map",
+        "/packs/js/application-296a25e58ab56162f2d7.chunk.js.map"
+      ]
+    },
+    "hello_react": {
+      "js": [
+        "/packs/js/runtime~hello_react-ac0d27d6b7cf73ae2372.js",
+        "/packs/js/vendors~application~hello_react-15bc308bd2891a4ac86c.chunk.js",
+        "/packs/js/vendors~hello_react-e0c97f7f082c564a388e.chunk.js",
+        "/packs/js/hello_react-c792dc3f0a988dec9edc.chunk.js"
+      ],
+      "js.map": [
+        "/packs/js/runtime~hello_react-ac0d27d6b7cf73ae2372.js.map",
+        "/packs/js/vendors~application~hello_react-15bc308bd2891a4ac86c.chunk.js.map",
+        "/packs/js/vendors~hello_react-e0c97f7f082c564a388e.chunk.js.map",
+        "/packs/js/hello_react-c792dc3f0a988dec9edc.chunk.js.map"
+      ]
+    }
+  },
+  "hello_react.js": "/packs/js/hello_react-c792dc3f0a988dec9edc.chunk.js",
+  "hello_react.js.map": "/packs/js/hello_react-c792dc3f0a988dec9edc.chunk.js.map",
+  "runtime~application.js": "/packs/js/runtime~application-aa001ceb574a6f67800d.js",
+  "runtime~application.js.map": "/packs/js/runtime~application-aa001ceb574a6f67800d.js.map",
+  "runtime~hello_react.js": "/packs/js/runtime~hello_react-ac0d27d6b7cf73ae2372.js",
+  "runtime~hello_react.js.map": "/packs/js/runtime~hello_react-ac0d27d6b7cf73ae2372.js.map",
+  "vendors~application.js": "/packs/js/vendors~application-ed0090f9b63e3d2106a0.chunk.js",
+  "vendors~application.js.map": "/packs/js/vendors~application-ed0090f9b63e3d2106a0.chunk.js.map",
+  "vendors~application~hello_react.js": "/packs/js/vendors~application~hello_react-15bc308bd2891a4ac86c.chunk.js",
+  "vendors~application~hello_react.js.map": "/packs/js/vendors~application~hello_react-15bc308bd2891a4ac86c.chunk.js.map",
+  "vendors~hello_react.js": "/packs/js/vendors~hello_react-e0c97f7f082c564a388e.chunk.js",
+  "vendors~hello_react.js.map": "/packs/js/vendors~hello_react-e0c97f7f082c564a388e.chunk.js.map"
+}

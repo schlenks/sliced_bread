@@ -1,0 +1,26 @@
+# SQLite. Versions 3.8.0 and up are supported.
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+#
+default: &default
+  adapter: postgresql
+  username: <%= ENV["DB_USER"] %>
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  url: <%= ENV["DEV_DB_URL"] || 'postgres://localhost:5432/sliced_bread_development' %>
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  <<: *default
+  url: <%= ENV["TEST_DB_URL"] || 'postgres://localhost:5432/sliced_bread_test' %>
+
+production:
+  <<: *default
+  url: <%= ENV["PROD_DB_URL"] || 'postgres://localhost:5432/sliced_bread_production' %>

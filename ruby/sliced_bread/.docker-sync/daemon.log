@@ -1,0 +1,60 @@
+          ok  Starting native_osx for sync sliced_bread_ruby-files
+          ok  sliced_bread_ruby-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_ruby-files
+[2020-09-15 14:25:14 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:25:13.14 on 15 Sep 2020
+[2020-09-15 14:25:14 -0400] Sync Log:  [BGN] Copying .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-15 14:25:14 -0400] Sync Log:  [END] Copying .docker-sync/daemon.log
+[2020-09-15 14:25:14 -0400] Sync Log:  [BGN] Copying .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-15 14:25:14 -0400] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-09-15 14:25:14 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:25:13.15 on 15 Sep 2020
+[2020-09-15 14:25:14 -0400] Sync Log:  Synchronization complete at 14:25:13  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-15 14:40:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:40:26.04 on 15 Sep 2020
+[2020-09-15 14:40:26 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-15 14:40:26 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-15 14:40:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:40:26.05 on 15 Sep 2020
+[2020-09-15 14:40:26 -0400] Sync Log:  Synchronization complete at 14:40:26  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-15 14:40:48 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:40:48.70 on 15 Sep 2020
+[2020-09-15 14:40:48 -0400] Sync Log:  [BGN] Updating file do from /host_sync to /app_sync
+[2020-09-15 14:40:48 -0400] Sync Log:  [END] Updating file do
+[2020-09-15 14:40:48 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:40:48.70 on 15 Sep 2020
+[2020-09-15 14:40:48 -0400] Sync Log:  Synchronization complete at 14:40:48  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_ruby-files
+          ok  sliced_bread_ruby-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_ruby-files
+[2020-09-15 14:42:00 -0400] Sync Log:  [END] Deleting .docker-sync/daemon.pid
+[2020-09-15 14:42:00 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:41:57.67 on 15 Sep 2020
+[2020-09-15 14:42:00 -0400] Sync Log:  Synchronization complete at 14:41:57  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-15 14:42:00 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:41:59.32 on 15 Sep 2020
+[2020-09-15 14:42:00 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-15 14:42:00 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-15 14:42:00 -0400] Sync Log:  [BGN] Copying .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-15 14:42:00 -0400] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-09-15 14:42:00 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:41:59.32 on 15 Sep 2020
+[2020-09-15 14:42:00 -0400] Sync Log:  Synchronization complete at 14:41:59  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-15 14:48:34 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:48:34.66 on 15 Sep 2020
+[2020-09-15 14:48:34 -0400] Sync Log:  [BGN] Updating file do from /host_sync to /app_sync
+[2020-09-15 14:48:34 -0400] Sync Log:  [END] Updating file do
+[2020-09-15 14:48:34 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:48:34.66 on 15 Sep 2020
+[2020-09-15 14:48:34 -0400] Sync Log:  Synchronization complete at 14:48:34  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_ruby-files
+          ok  sliced_bread_ruby-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_ruby-files
+[2020-09-15 14:48:46 -0400] Sync Log:  [END] Deleting .docker-sync/daemon.pid
+[2020-09-15 14:48:46 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:48:43.48 on 15 Sep 2020
+[2020-09-15 14:48:46 -0400] Sync Log:  Synchronization complete at 14:48:43  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-15 14:48:46 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:48:45.16 on 15 Sep 2020
+[2020-09-15 14:48:46 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-15 14:48:46 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-15 14:48:46 -0400] Sync Log:  [BGN] Copying .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-15 14:48:46 -0400] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-09-15 14:48:46 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:48:45.17 on 15 Sep 2020
+[2020-09-15 14:48:46 -0400] Sync Log:  Synchronization complete at 14:48:45  (2 items transferred, 0 skipped, 0 failed)

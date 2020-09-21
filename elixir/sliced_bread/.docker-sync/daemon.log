@@ -1,0 +1,1515 @@
+          ok  Starting native_osx for sync sliced_bread_elixir-files
+          ok  sliced_bread_elixir-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_elixir-files
+[2020-09-14 13:40:49 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:40:48.56 on 14 Sep 2020
+[2020-09-14 13:40:49 -0400] Sync Log:  [BGN] Copying .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-14 13:40:49 -0400] Sync Log:  [END] Copying .docker-sync/daemon.log
+[2020-09-14 13:40:49 -0400] Sync Log:  [BGN] Copying .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-14 13:40:49 -0400] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-09-14 13:40:49 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:40:48.56 on 14 Sep 2020
+[2020-09-14 13:40:49 -0400] Sync Log:  Synchronization complete at 13:40:48  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-14 13:42:53 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:42:52.89 on 14 Sep 2020
+[2020-09-14 13:42:53 -0400] Sync Log:  [BGN] Updating file do from /host_sync to /app_sync
+[2020-09-14 13:42:53 -0400] Sync Log:  [END] Updating file do
+[2020-09-14 13:42:53 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:42:52.89 on 14 Sep 2020
+[2020-09-14 13:42:53 -0400] Sync Log:  Synchronization complete at 13:42:52  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_elixir-files
+          ok  sliced_bread_elixir-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_elixir-files
+[2020-09-14 13:43:01 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-14 13:43:01 -0400] Sync Log:  [BGN] Deleting .docker-sync/daemon.pid from /app_sync
+[2020-09-14 13:43:01 -0400] Sync Log:  [END] Deleting .docker-sync/daemon.pid
+[2020-09-14 13:43:01 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:42:58.46 on 14 Sep 2020
+[2020-09-14 13:43:01 -0400] Sync Log:  Synchronization complete at 13:42:58  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-14 13:43:01 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:43:00.15 on 14 Sep 2020
+[2020-09-14 13:43:01 -0400] Sync Log:  [BGN] Copying .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-14 13:43:01 -0400] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-09-14 13:43:01 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:43:00.15 on 14 Sep 2020
+[2020-09-14 13:43:01 -0400] Sync Log:  Synchronization complete at 13:43:00  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 13:43:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:43:25.66 on 14 Sep 2020
+[2020-09-14 13:43:26 -0400] Sync Log:  [BGN] Copying src from /host_sync to /app_sync
+[2020-09-14 13:43:26 -0400] Sync Log:  [END] Copying src
+[2020-09-14 13:43:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:43:25.66 on 14 Sep 2020
+[2020-09-14 13:43:26 -0400] Sync Log:  Synchronization complete at 13:43:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 13:46:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:46:25.87 on 14 Sep 2020
+[2020-09-14 13:46:26 -0400] Sync Log:  [BGN] Updating file do from /host_sync to /app_sync
+[2020-09-14 13:46:26 -0400] Sync Log:  [END] Updating file do
+[2020-09-14 13:46:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:46:25.87 on 14 Sep 2020
+[2020-09-14 13:46:26 -0400] Sync Log:  Synchronization complete at 13:46:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 13:47:21 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:47:20.87 on 14 Sep 2020
+[2020-09-14 13:47:21 -0400] Sync Log:  [BGN] Updating file do from /host_sync to /app_sync
+[2020-09-14 13:47:21 -0400] Sync Log:  [END] Updating file do
+[2020-09-14 13:47:21 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:47:20.87 on 14 Sep 2020
+[2020-09-14 13:47:21 -0400] Sync Log:  Synchronization complete at 13:47:20  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 13:51:03 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:51:02.98 on 14 Sep 2020
+[2020-09-14 13:51:03 -0400] Sync Log:  [BGN] Updating file do from /host_sync to /app_sync
+[2020-09-14 13:51:03 -0400] Sync Log:  [END] Updating file do
+[2020-09-14 13:51:03 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:51:02.98 on 14 Sep 2020
+[2020-09-14 13:51:03 -0400] Sync Log:  Synchronization complete at 13:51:02  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 13:54:05 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:54:05.00 on 14 Sep 2020
+[2020-09-14 13:54:05 -0400] Sync Log:  [BGN] Updating file do from /host_sync to /app_sync
+[2020-09-14 13:54:05 -0400] Sync Log:  [END] Updating file do
+[2020-09-14 13:54:05 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:54:05.00 on 14 Sep 2020
+[2020-09-14 13:54:05 -0400] Sync Log:  Synchronization complete at 13:54:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 13:56:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:56:26.63 on 14 Sep 2020
+[2020-09-14 13:56:26 -0400] Sync Log:  [BGN] Updating file .DS_Store from /host_sync to /app_sync
+[2020-09-14 13:56:26 -0400] Sync Log:  [END] Updating file .DS_Store
+[2020-09-14 13:56:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:56:26.63 on 14 Sep 2020
+[2020-09-14 13:56:26 -0400] Sync Log:  Synchronization complete at 13:56:26  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 13:56:49 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:56:49.17 on 14 Sep 2020
+[2020-09-14 13:56:49 -0400] Sync Log:  [BGN] Deleting db from /app_sync
+[2020-09-14 13:56:49 -0400] Sync Log:  [END] Deleting db
+[2020-09-14 13:56:49 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:56:49.17 on 14 Sep 2020
+[2020-09-14 13:56:49 -0400] Sync Log:  Synchronization complete at 13:56:49  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 13:56:50 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:56:50.18 on 14 Sep 2020
+[2020-09-14 13:56:50 -0400] Sync Log:  [BGN] Deleting .rspec from /app_sync
+[2020-09-14 13:56:50 -0400] Sync Log:  [END] Deleting .rspec
+[2020-09-14 13:56:50 -0400] Sync Log:  [BGN] Deleting .rubocop.yml from /app_sync
+[2020-09-14 13:56:50 -0400] Sync Log:  [END] Deleting .rubocop.yml
+[2020-09-14 13:56:50 -0400] Sync Log:  [BGN] Deleting .ruby-version from /app_sync
+[2020-09-14 13:56:50 -0400] Sync Log:  [END] Deleting .ruby-version
+[2020-09-14 13:56:50 -0400] Sync Log:  [BGN] Deleting app from /app_sync
+[2020-09-14 13:56:50 -0400] Sync Log:  [END] Deleting app
+[2020-09-14 13:56:50 -0400] Sync Log:  [BGN] Deleting babel.config.js from /app_sync
+[2020-09-14 13:56:50 -0400] Sync Log:  [END] Deleting babel.config.js
+[2020-09-14 13:56:50 -0400] Sync Log:  [BGN] Deleting bin from /app_sync
+[2020-09-14 13:56:50 -0400] Sync Log:  [END] Deleting bin
+[2020-09-14 13:56:50 -0400] Sync Log:  [BGN] Deleting config from /app_sync
+[2020-09-14 13:56:50 -0400] Sync Log:  [END] Deleting config
+[2020-09-14 13:56:50 -0400] Sync Log:  [BGN] Deleting config.ru from /app_sync
+[2020-09-14 13:56:50 -0400] Sync Log:  [END] Deleting config.ru
+[2020-09-14 13:56:50 -0400] Sync Log:  [BGN] Deleting coverage from /app_sync
+[2020-09-14 13:56:50 -0400] Sync Log:  [END] Deleting coverage
+[2020-09-14 13:56:50 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:56:50.20 on 14 Sep 2020
+[2020-09-14 13:56:50 -0400] Sync Log:  Synchronization complete at 13:56:50  (9 items transferred, 0 skipped, 0 failed)
+[2020-09-14 13:57:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:57:25.80 on 14 Sep 2020
+[2020-09-14 13:57:26 -0400] Sync Log:  [BGN] Updating file .DS_Store from /host_sync to /app_sync
+[2020-09-14 13:57:26 -0400] Sync Log:  [END] Updating file .DS_Store
+[2020-09-14 13:57:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:57:25.80 on 14 Sep 2020
+[2020-09-14 13:57:26 -0400] Sync Log:  Synchronization complete at 13:57:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 13:57:39 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:57:39.75 on 14 Sep 2020
+[2020-09-14 13:57:39 -0400] Sync Log:  [BGN] Deleting yarn.lock from /app_sync
+[2020-09-14 13:57:39 -0400] Sync Log:  [END] Deleting yarn.lock
+[2020-09-14 13:57:39 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:57:39.75 on 14 Sep 2020
+[2020-09-14 13:57:39 -0400] Sync Log:  Synchronization complete at 13:57:39  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 13:57:41 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:57:40.77 on 14 Sep 2020
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting Gemfile from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting Gemfile
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting Gemfile.lock from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting Gemfile.lock
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting Rakefile from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting Rakefile
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting elixir from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting elixir
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting hackerrank.yml from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting hackerrank.yml
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting javascript from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting javascript
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting lib from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting lib
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting package.json from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting package.json
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting postcss.config.js from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting postcss.config.js
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting public from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting public
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting rails from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting rails
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting spec from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting spec
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting storage from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting storage
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting test from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting test
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting unit.xml from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting unit.xml
+[2020-09-14 13:57:41 -0400] Sync Log:  [BGN] Deleting vendor from /app_sync
+[2020-09-14 13:57:41 -0400] Sync Log:  [END] Deleting vendor
+[2020-09-14 13:57:41 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:57:41.01 on 14 Sep 2020
+[2020-09-14 13:57:41 -0400] Sync Log:  Synchronization complete at 13:57:41  (16 items transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_elixir-files
+          ok  sliced_bread_elixir-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_elixir-files
+[2020-09-14 13:59:30 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-14 13:59:30 -0400] Sync Log:  [BGN] Deleting .docker-sync/daemon.pid from /app_sync
+[2020-09-14 13:59:30 -0400] Sync Log:  [END] Deleting .docker-sync/daemon.pid
+[2020-09-14 13:59:30 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:59:27.16 on 14 Sep 2020
+[2020-09-14 13:59:30 -0400] Sync Log:  Synchronization complete at 13:59:27  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-14 13:59:30 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:59:28.80 on 14 Sep 2020
+[2020-09-14 13:59:30 -0400] Sync Log:  [BGN] Copying .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-14 13:59:30 -0400] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-09-14 13:59:30 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:59:28.80 on 14 Sep 2020
+[2020-09-14 13:59:30 -0400] Sync Log:  Synchronization complete at 13:59:28  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 14:00:01 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:00:00.86 on 14 Sep 2020
+[2020-09-14 14:00:01 -0400] Sync Log:  [BGN] Updating file do from /host_sync to /app_sync
+[2020-09-14 14:00:01 -0400] Sync Log:  [END] Updating file do
+[2020-09-14 14:00:01 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:00:00.86 on 14 Sep 2020
+[2020-09-14 14:00:01 -0400] Sync Log:  Synchronization complete at 14:00:00  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 14:07:49 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:07:49.46 on 14 Sep 2020
+[2020-09-14 14:07:49 -0400] Sync Log:  [BGN] Copying config from /app_sync to /host_sync
+[2020-09-14 14:07:49 -0400] Sync Log:  [END] Copying config
+[2020-09-14 14:07:49 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:07:49.50 on 14 Sep 2020
+[2020-09-14 14:07:49 -0400] Sync Log:  Synchronization complete at 14:07:49  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 14:07:50 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:07:50.51 on 14 Sep 2020
+[2020-09-14 14:07:50 -0400] Sync Log:  [BGN] Copying lib from /app_sync to /host_sync
+[2020-09-14 14:07:50 -0400] Sync Log:  [END] Copying lib
+[2020-09-14 14:07:50 -0400] Sync Log:  [BGN] Copying mix.exs from /app_sync to /host_sync
+[2020-09-14 14:07:50 -0400] Sync Log:  [END] Copying mix.exs
+[2020-09-14 14:07:50 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:07:50.59 on 14 Sep 2020
+[2020-09-14 14:07:50 -0400] Sync Log:  Synchronization complete at 14:07:50  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:07:53 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:07:53.44 on 14 Sep 2020
+[2020-09-14 14:07:53 -0400] Sync Log:  [BGN] Copying .formatter.exs from /app_sync to /host_sync
+[2020-09-14 14:07:53 -0400] Sync Log:  [END] Copying .formatter.exs
+[2020-09-14 14:07:53 -0400] Sync Log:  [BGN] Updating file README.md from /app_sync to /host_sync
+[2020-09-14 14:07:53 -0400] Sync Log:  [END] Updating file README.md
+[2020-09-14 14:07:53 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:07:53.46 on 14 Sep 2020
+[2020-09-14 14:07:53 -0400] Sync Log:  Synchronization complete at 14:07:53  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:08:30 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:08:30.50 on 14 Sep 2020
+[2020-09-14 14:08:30 -0400] Sync Log:  [BGN] Updating file .gitignore from /app_sync to /host_sync
+[2020-09-14 14:08:30 -0400] Sync Log:  [END] Updating file .gitignore
+[2020-09-14 14:08:30 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:08:30.51 on 14 Sep 2020
+[2020-09-14 14:08:30 -0400] Sync Log:  Synchronization complete at 14:08:30  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 14:08:31 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:08:31.51 on 14 Sep 2020
+[2020-09-14 14:08:31 -0400] Sync Log:  [BGN] Copying assets from /app_sync to /host_sync
+[2020-09-14 14:08:31 -0400] Sync Log:  [END] Copying assets
+[2020-09-14 14:08:31 -0400] Sync Log:  [BGN] Updating file config/dev.exs from /app_sync to /host_sync
+[2020-09-14 14:08:31 -0400] Sync Log:  [END] Updating file config/dev.exs
+[2020-09-14 14:08:31 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /app_sync to /host_sync
+[2020-09-14 14:08:31 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-14 14:08:31 -0400] Sync Log:  [BGN] Updating file config/test.exs from /app_sync to /host_sync
+[2020-09-14 14:08:31 -0400] Sync Log:  [END] Updating file config/test.exs
+[2020-09-14 14:08:31 -0400] Sync Log:  [BGN] Copying lib/sliced_bread/repo.ex from /app_sync to /host_sync
+[2020-09-14 14:08:31 -0400] Sync Log:  [END] Copying lib/sliced_bread/repo.ex
+[2020-09-14 14:08:31 -0400] Sync Log:  [BGN] Copying lib/sliced_bread_web/controllers/page_controller.ex from /app_sync to /host_sync
+[2020-09-14 14:08:31 -0400] Sync Log:  [END] Copying lib/sliced_bread_web/controllers/page_controller.ex
+[2020-09-14 14:08:31 -0400] Sync Log:  [BGN] Copying lib/sliced_bread_web/gettext.ex from /app_sync to /host_sync
+[2020-09-14 14:08:31 -0400] Sync Log:  [END] Copying lib/sliced_bread_web/gettext.ex
+[2020-09-14 14:08:31 -0400] Sync Log:  [BGN] Copying lib/sliced_bread_web/templates from /app_sync to /host_sync
+[2020-09-14 14:08:32 -0400] Sync Log:  [END] Copying lib/sliced_bread_web/templates
+[2020-09-14 14:08:32 -0400] Sync Log:  [BGN] Copying lib/sliced_bread_web/views/layout_view.ex from /app_sync to /host_sync
+[2020-09-14 14:08:32 -0400] Sync Log:  [END] Copying lib/sliced_bread_web/views/layout_view.ex
+[2020-09-14 14:08:32 -0400] Sync Log:  [BGN] Copying lib/sliced_bread_web/views/page_view.ex from /app_sync to /host_sync
+[2020-09-14 14:08:32 -0400] Sync Log:  [END] Copying lib/sliced_bread_web/views/page_view.ex
+[2020-09-14 14:08:32 -0400] Sync Log:  [BGN] Copying priv from /app_sync to /host_sync
+[2020-09-14 14:08:32 -0400] Sync Log:  [END] Copying priv
+[2020-09-14 14:08:32 -0400] Sync Log:  [BGN] Copying test from /app_sync to /host_sync
+[2020-09-14 14:08:32 -0400] Sync Log:  [END] Copying test
+[2020-09-14 14:08:32 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:08:31.87 on 14 Sep 2020
+[2020-09-14 14:08:32 -0400] Sync Log:  Synchronization complete at 14:08:31  (12 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:08:36 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:08:36.44 on 14 Sep 2020
+[2020-09-14 14:08:36 -0400] Sync Log:  [BGN] Copying deps from /app_sync to /host_sync
+[2020-09-14 14:08:43 -0400] Sync Log:  [END] Copying deps
+[2020-09-14 14:08:43 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:08:42.73 on 14 Sep 2020
+[2020-09-14 14:08:43 -0400] Sync Log:  Synchronization complete at 14:08:42  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 14:08:45 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:08:44.85 on 14 Sep 2020
+[2020-09-14 14:08:45 -0400] Sync Log:  [BGN] Copying _build from /app_sync to /host_sync
+[2020-09-14 14:08:45 -0400] Sync Log:  [END] Copying _build
+[2020-09-14 14:08:45 -0400] Sync Log:  [BGN] Copying deps/gettext/src/gettext_po_parser.erl from /app_sync to /host_sync
+[2020-09-14 14:08:45 -0400] Sync Log:  [END] Copying deps/gettext/src/gettext_po_parser.erl
+[2020-09-14 14:08:45 -0400] Sync Log:  [BGN] Copying deps/ranch/.rebar3 from /app_sync to /host_sync
+[2020-09-14 14:08:45 -0400] Sync Log:  [END] Copying deps/ranch/.rebar3
+[2020-09-14 14:08:45 -0400] Sync Log:  [BGN] Copying deps/ranch/ebin from /app_sync to /host_sync
+[2020-09-14 14:08:46 -0400] Sync Log:  [END] Copying deps/ranch/ebin
+[2020-09-14 14:08:46 -0400] Sync Log:  [BGN] Copying deps/telemetry/.rebar3 from /app_sync to /host_sync
+[2020-09-14 14:08:46 -0400] Sync Log:  [END] Copying deps/telemetry/.rebar3
+[2020-09-14 14:08:46 -0400] Sync Log:  [BGN] Copying deps/telemetry/ebin from /app_sync to /host_sync
+[2020-09-14 14:08:46 -0400] Sync Log:  [END] Copying deps/telemetry/ebin
+[2020-09-14 14:08:46 -0400] Sync Log:  [BGN] Copying mix.lock from /app_sync to /host_sync
+[2020-09-14 14:08:46 -0400] Sync Log:  [END] Copying mix.lock
+[2020-09-14 14:08:46 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:08:45.88 on 14 Sep 2020
+[2020-09-14 14:08:46 -0400] Sync Log:  Synchronization complete at 14:08:45  (7 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:08:48 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:08:48.00 on 14 Sep 2020
+[2020-09-14 14:08:48 -0400] Sync Log:  [BGN] Copying _build/dev/lib/decimal from /app_sync to /host_sync
+[2020-09-14 14:08:48 -0400] Sync Log:  [END] Copying _build/dev/lib/decimal
+[2020-09-14 14:08:48 -0400] Sync Log:  [BGN] Copying _build/dev/lib/telemetry_poller/.mix from /app_sync to /host_sync
+[2020-09-14 14:08:48 -0400] Sync Log:  [END] Copying _build/dev/lib/telemetry_poller/.mix
+[2020-09-14 14:08:48 -0400] Sync Log:  [BGN] Copying _build/dev/lib/telemetry_poller/ebin from /app_sync to /host_sync
+[2020-09-14 14:08:48 -0400] Sync Log:  [END] Copying _build/dev/lib/telemetry_poller/ebin
+[2020-09-14 14:08:48 -0400] Sync Log:  [BGN] Copying deps/telemetry_poller/.rebar3 from /app_sync to /host_sync
+[2020-09-14 14:08:48 -0400] Sync Log:  [END] Copying deps/telemetry_poller/.rebar3
+[2020-09-14 14:08:48 -0400] Sync Log:  [BGN] Copying deps/telemetry_poller/ebin from /app_sync to /host_sync
+[2020-09-14 14:08:48 -0400] Sync Log:  [END] Copying deps/telemetry_poller/ebin
+[2020-09-14 14:08:48 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:08:48.17 on 14 Sep 2020
+[2020-09-14 14:08:48 -0400] Sync Log:  Synchronization complete at 14:08:48  (5 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:08:49 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:08:49.22 on 14 Sep 2020
+[2020-09-14 14:08:49 -0400] Sync Log:  [BGN] Copying _build/dev/lib/jason from /app_sync to /host_sync
+[2020-09-14 14:08:49 -0400] Sync Log:  [END] Copying _build/dev/lib/jason
+[2020-09-14 14:08:49 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:08:49.45 on 14 Sep 2020
+[2020-09-14 14:08:49 -0400] Sync Log:  Synchronization complete at 14:08:49  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 14:08:50 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:08:50.49 on 14 Sep 2020
+[2020-09-14 14:08:50 -0400] Sync Log:  [BGN] Copying _build/dev/lib/db_connection from /app_sync to /host_sync
+[2020-09-14 14:08:51 -0400] Sync Log:  [END] Copying _build/dev/lib/db_connection
+[2020-09-14 14:08:51 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto from /app_sync to /host_sync
+[2020-09-14 14:08:51 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto
+[2020-09-14 14:08:51 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:08:50.73 on 14 Sep 2020
+[2020-09-14 14:08:51 -0400] Sync Log:  Synchronization complete at 14:08:50  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:08:54 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:08:54.18 on 14 Sep 2020
+[2020-09-14 14:08:54 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Association.BelongsTo.beam from /app_sync to /host_sync
+[2020-09-14 14:08:54 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Association.BelongsTo.beam
+[2020-09-14 14:08:54 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Filter.beam from /app_sync to /host_sync
+[2020-09-14 14:08:54 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Filter.beam
+[2020-09-14 14:08:54 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Join.beam from /app_sync to /host_sync
+[2020-09-14 14:08:54 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Join.beam
+[2020-09-14 14:08:54 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:08:54.21 on 14 Sep 2020
+[2020-09-14 14:08:54 -0400] Sync Log:  Synchronization complete at 14:08:54  (3 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:08:55 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:08:55.23 on 14 Sep 2020
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/cowlib from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/cowlib
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/.mix from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/.mix
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Adapter.Queryable.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Adapter.Queryable.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Adapter.Schema.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Adapter.Schema.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Adapter.Storage.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Adapter.Storage.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Adapter.Transaction.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Adapter.Transaction.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Adapter.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Adapter.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Application.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Application.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Association.Has.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Association.Has.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Association.HasThrough.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Association.HasThrough.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Association.ManyToMany.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Association.ManyToMany.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Association.NotLoaded.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Association.NotLoaded.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Association.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Association.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.CastError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.CastError.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.ChangeError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.ChangeError.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Changeset.Relation.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Changeset.Relation.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Changeset.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Changeset.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.ConstraintError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.ConstraintError.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Embedded.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Embedded.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.InvalidChangesetError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.InvalidChangesetError.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.InvalidURLError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.InvalidURLError.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.LogEntry.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.LogEntry.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.MigrationError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.MigrationError.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Multi.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Multi.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.MultiplePrimaryKeyError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.MultiplePrimaryKeyError.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.MultipleResultsError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.MultipleResultsError.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.NoPrimaryKeyFieldError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.NoPrimaryKeyFieldError.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.NoPrimaryKeyValueError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.NoPrimaryKeyValueError.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.NoResultsError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.NoResultsError.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.API.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.API.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.BooleanExpr.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.BooleanExpr.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.CTE.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.CTE.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Combination.beam from /app_sync to /host_sync
+[2020-09-14 14:08:55 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Combination.beam
+[2020-09-14 14:08:55 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Distinct.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Distinct.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Dynamic.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Dynamic.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.From.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.From.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.GroupBy.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.GroupBy.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.LimitOffset.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.LimitOffset.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Lock.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Lock.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.OrderBy.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.OrderBy.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Preload.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Preload.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Select.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Select.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Update.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Update.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Windows.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.Windows.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Builder.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.CastError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.CastError.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.CompileError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.CompileError.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.DynamicExpr.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.DynamicExpr.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.FromExpr.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.FromExpr.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.JoinExpr.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.JoinExpr.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Planner.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Planner.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.QueryExpr.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.QueryExpr.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.SelectExpr.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.SelectExpr.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Tagged.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.Tagged.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.WindowAPI.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.WindowAPI.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.WithExpr.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.WithExpr.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Query.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.QueryError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.QueryError.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Queryable.Atom.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Queryable.Atom.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Queryable.BitString.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Queryable.BitString.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Queryable.Ecto.Query.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Queryable.Ecto.Query.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Queryable.Ecto.SubQuery.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Queryable.Ecto.SubQuery.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Queryable.Tuple.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Queryable.Tuple.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Queryable.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Queryable.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.Assoc.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.Assoc.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.Preloader.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.Preloader.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.Queryable.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.Queryable.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.Registry.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.Registry.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.Schema.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.Schema.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.Supervisor.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.Supervisor.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.Transaction.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.Transaction.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Repo.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Schema.Loader.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Schema.Loader.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Schema.Metadata.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Schema.Metadata.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Schema.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Schema.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.StaleEntryError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.StaleEntryError.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.SubQuery.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.SubQuery.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.SubQueryError.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.SubQueryError.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Type.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.Type.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.UUID.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.UUID.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Ecto.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Inspect.Ecto.Association.NotLoaded.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Inspect.Ecto.Association.NotLoaded.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Inspect.Ecto.Changeset.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Inspect.Ecto.Changeset.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Inspect.Ecto.Query.DynamicExpr.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Inspect.Ecto.Query.DynamicExpr.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Inspect.Ecto.Query.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Inspect.Ecto.Query.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Inspect.Ecto.Schema.Metadata.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Inspect.Ecto.Schema.Metadata.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Jason.Encoder.Ecto.Association.NotLoaded.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Jason.Encoder.Ecto.Association.NotLoaded.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Jason.Encoder.Ecto.Schema.Metadata.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Jason.Encoder.Ecto.Schema.Metadata.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Mix.Ecto.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Mix.Ecto.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Mix.Tasks.Ecto.Create.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Mix.Tasks.Ecto.Create.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Mix.Tasks.Ecto.Drop.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Mix.Tasks.Ecto.Drop.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Mix.Tasks.Ecto.Gen.Repo.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Mix.Tasks.Ecto.Gen.Repo.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/Elixir.Mix.Tasks.Ecto.beam from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/Elixir.Mix.Tasks.Ecto.beam
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto/ebin/ecto.app from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto/ebin/ecto.app
+[2020-09-14 14:08:56 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_pubsub from /app_sync to /host_sync
+[2020-09-14 14:08:56 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_pubsub
+[2020-09-14 14:08:56 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:08:56.48 on 14 Sep 2020
+[2020-09-14 14:08:56 -0400] Sync Log:  Synchronization complete at 14:08:56  (95 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:08:57 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:08:57.62 on 14 Sep 2020
+[2020-09-14 14:08:57 -0400] Sync Log:  [BGN] Copying deps/cowlib/.rebar3 from /app_sync to /host_sync
+[2020-09-14 14:08:58 -0400] Sync Log:  [END] Copying deps/cowlib/.rebar3
+[2020-09-14 14:08:58 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin from /app_sync to /host_sync
+[2020-09-14 14:08:58 -0400] Sync Log:  [END] Copying deps/cowlib/ebin
+[2020-09-14 14:08:58 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:08:57.66 on 14 Sep 2020
+[2020-09-14 14:08:58 -0400] Sync Log:  Synchronization complete at 14:08:57  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:08:59 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:08:58.68 on 14 Sep 2020
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_base64url.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_base64url.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_cookie.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_cookie.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_date.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_date.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_hpack.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_hpack.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_http.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_http.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_http2.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_http2.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_http2_machine.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_http2_machine.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_http_struct_hd.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_http_struct_hd.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_http_te.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_http_te.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_iolists.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_iolists.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_link.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_link.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_mimetypes.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_mimetypes.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_multipart.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_multipart.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_qs.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_qs.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_spdy.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_spdy.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_sse.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_sse.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_uri.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_uri.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_uri_template.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_uri_template.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_ws.beam from /app_sync to /host_sync
+[2020-09-14 14:08:59 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_ws.beam
+[2020-09-14 14:08:59 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:08:58.90 on 14 Sep 2020
+[2020-09-14 14:08:59 -0400] Sync Log:  Synchronization complete at 14:08:58  (19 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:09:11 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:09:11.32 on 14 Sep 2020
+[2020-09-14 14:09:11 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cow_http_hd.beam from /app_sync to /host_sync
+[2020-09-14 14:09:11 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cow_http_hd.beam
+[2020-09-14 14:09:11 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:09:11.33 on 14 Sep 2020
+[2020-09-14 14:09:11 -0400] Sync Log:  Synchronization complete at 14:09:11  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 14:09:12 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:09:12.34 on 14 Sep 2020
+[2020-09-14 14:09:12 -0400] Sync Log:  [BGN] Copying _build/dev/lib/cowboy from /app_sync to /host_sync
+[2020-09-14 14:09:12 -0400] Sync Log:  [END] Copying _build/dev/lib/cowboy
+[2020-09-14 14:09:12 -0400] Sync Log:  [BGN] Copying _build/dev/lib/cowlib/.mix from /app_sync to /host_sync
+[2020-09-14 14:09:12 -0400] Sync Log:  [END] Copying _build/dev/lib/cowlib/.mix
+[2020-09-14 14:09:12 -0400] Sync Log:  [BGN] Copying _build/dev/lib/cowlib/ebin from /app_sync to /host_sync
+[2020-09-14 14:09:12 -0400] Sync Log:  [END] Copying _build/dev/lib/cowlib/ebin
+[2020-09-14 14:09:12 -0400] Sync Log:  [BGN] Copying _build/dev/lib/cowlib/include from /app_sync to /host_sync
+[2020-09-14 14:09:12 -0400] Sync Log:  [END] Copying _build/dev/lib/cowlib/include
+[2020-09-14 14:09:12 -0400] Sync Log:  [BGN] Copying deps/cowlib/ebin/cowlib.app from /app_sync to /host_sync
+[2020-09-14 14:09:12 -0400] Sync Log:  [END] Copying deps/cowlib/ebin/cowlib.app
+[2020-09-14 14:09:12 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:09:12.40 on 14 Sep 2020
+[2020-09-14 14:09:12 -0400] Sync Log:  Synchronization complete at 14:09:12  (5 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:09:13 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:09:13.42 on 14 Sep 2020
+[2020-09-14 14:09:13 -0400] Sync Log:  [BGN] Copying assets/package-lock.json from /app_sync to /host_sync
+[2020-09-14 14:09:13 -0400] Sync Log:  [END] Copying assets/package-lock.json
+[2020-09-14 14:09:13 -0400] Sync Log:  [BGN] Copying deps/cowboy/.rebar3 from /app_sync to /host_sync
+[2020-09-14 14:09:13 -0400] Sync Log:  [END] Copying deps/cowboy/.rebar3
+[2020-09-14 14:09:13 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin from /app_sync to /host_sync
+[2020-09-14 14:09:13 -0400] Sync Log:  [END] Copying deps/cowboy/ebin
+[2020-09-14 14:09:13 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:09:13.58 on 14 Sep 2020
+[2020-09-14 14:09:13 -0400] Sync Log:  Synchronization complete at 14:09:13  (3 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:09:15 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:09:15.61 on 14 Sep 2020
+[2020-09-14 14:09:15 -0400] Sync Log:  [BGN] Copying _build/dev/lib/cowboy/.mix from /app_sync to /host_sync
+[2020-09-14 14:09:15 -0400] Sync Log:  [END] Copying _build/dev/lib/cowboy/.mix
+[2020-09-14 14:09:15 -0400] Sync Log:  [BGN] Copying _build/dev/lib/cowboy/ebin from /app_sync to /host_sync
+[2020-09-14 14:09:15 -0400] Sync Log:  [END] Copying _build/dev/lib/cowboy/ebin
+[2020-09-14 14:09:15 -0400] Sync Log:  [BGN] Copying _build/dev/lib/mime from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying _build/dev/lib/mime
+[2020-09-14 14:09:16 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin/cowboy.app from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying deps/cowboy/ebin/cowboy.app
+[2020-09-14 14:09:16 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin/cowboy_clock.beam from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying deps/cowboy/ebin/cowboy_clock.beam
+[2020-09-14 14:09:16 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin/cowboy_compress_h.beam from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying deps/cowboy/ebin/cowboy_compress_h.beam
+[2020-09-14 14:09:16 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin/cowboy_constraints.beam from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying deps/cowboy/ebin/cowboy_constraints.beam
+[2020-09-14 14:09:16 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin/cowboy_http.beam from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying deps/cowboy/ebin/cowboy_http.beam
+[2020-09-14 14:09:16 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin/cowboy_http2.beam from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying deps/cowboy/ebin/cowboy_http2.beam
+[2020-09-14 14:09:16 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin/cowboy_metrics_h.beam from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying deps/cowboy/ebin/cowboy_metrics_h.beam
+[2020-09-14 14:09:16 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin/cowboy_req.beam from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying deps/cowboy/ebin/cowboy_req.beam
+[2020-09-14 14:09:16 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin/cowboy_rest.beam from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying deps/cowboy/ebin/cowboy_rest.beam
+[2020-09-14 14:09:16 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin/cowboy_router.beam from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying deps/cowboy/ebin/cowboy_router.beam
+[2020-09-14 14:09:16 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin/cowboy_static.beam from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying deps/cowboy/ebin/cowboy_static.beam
+[2020-09-14 14:09:16 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin/cowboy_stream_h.beam from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying deps/cowboy/ebin/cowboy_stream_h.beam
+[2020-09-14 14:09:16 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin/cowboy_tracer_h.beam from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying deps/cowboy/ebin/cowboy_tracer_h.beam
+[2020-09-14 14:09:16 -0400] Sync Log:  [BGN] Copying deps/cowboy/ebin/cowboy_websocket.beam from /app_sync to /host_sync
+[2020-09-14 14:09:16 -0400] Sync Log:  [END] Copying deps/cowboy/ebin/cowboy_websocket.beam
+[2020-09-14 14:09:16 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:09:15.79 on 14 Sep 2020
+[2020-09-14 14:09:16 -0400] Sync Log:  Synchronization complete at 14:09:15  (17 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:09:17 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:09:16.82 on 14 Sep 2020
+[2020-09-14 14:09:17 -0400] Sync Log:  [BGN] Copying _build/dev/lib/mime/.mix from /app_sync to /host_sync
+[2020-09-14 14:09:17 -0400] Sync Log:  [END] Copying _build/dev/lib/mime/.mix
+[2020-09-14 14:09:17 -0400] Sync Log:  [BGN] Copying _build/dev/lib/mime/ebin/Elixir.MIME.Application.beam from /app_sync to /host_sync
+[2020-09-14 14:09:17 -0400] Sync Log:  [END] Copying _build/dev/lib/mime/ebin/Elixir.MIME.Application.beam
+[2020-09-14 14:09:17 -0400] Sync Log:  [BGN] Copying _build/dev/lib/mime/ebin/Elixir.MIME.beam from /app_sync to /host_sync
+[2020-09-14 14:09:17 -0400] Sync Log:  [END] Copying _build/dev/lib/mime/ebin/Elixir.MIME.beam
+[2020-09-14 14:09:17 -0400] Sync Log:  [BGN] Copying _build/dev/lib/mime/ebin/mime.app from /app_sync to /host_sync
+[2020-09-14 14:09:17 -0400] Sync Log:  [END] Copying _build/dev/lib/mime/ebin/mime.app
+[2020-09-14 14:09:17 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex from /app_sync to /host_sync
+[2020-09-14 14:09:17 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex
+[2020-09-14 14:09:17 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:09:16.90 on 14 Sep 2020
+[2020-09-14 14:09:17 -0400] Sync Log:  Synchronization complete at 14:09:16  (5 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:09:18 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:09:17.89 on 14 Sep 2020
+[2020-09-14 14:09:18 -0400] Sync Log:  [BGN] Copying priv/static from /app_sync to /host_sync
+[2020-09-14 14:09:18 -0400] Sync Log:  [END] Copying priv/static
+[2020-09-14 14:09:18 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:09:17.95 on 14 Sep 2020
+[2020-09-14 14:09:18 -0400] Sync Log:  Synchronization complete at 14:09:17  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 14:09:21 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:09:20.93 on 14 Sep 2020
+[2020-09-14 14:09:21 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.DBConnection.Query.Postgrex.Parameters.beam from /app_sync to /host_sync
+[2020-09-14 14:09:21 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.DBConnection.Query.Postgrex.Parameters.beam
+[2020-09-14 14:09:21 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extension.beam from /app_sync to /host_sync
+[2020-09-14 14:09:21 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extension.beam
+[2020-09-14 14:09:21 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Float4.beam from /app_sync to /host_sync
+[2020-09-14 14:09:21 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Float4.beam
+[2020-09-14 14:09:21 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Timestamp.beam from /app_sync to /host_sync
+[2020-09-14 14:09:21 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Timestamp.beam
+[2020-09-14 14:09:21 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Parameters.beam from /app_sync to /host_sync
+[2020-09-14 14:09:21 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Parameters.beam
+[2020-09-14 14:09:21 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.TypeModule.beam from /app_sync to /host_sync
+[2020-09-14 14:09:21 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.TypeModule.beam
+[2020-09-14 14:09:21 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:09:21.05 on 14 Sep 2020
+[2020-09-14 14:09:21 -0400] Sync Log:  Synchronization complete at 14:09:21  (6 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:09:22 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:09:22.07 on 14 Sep 2020
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/ecto_sql from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/ecto_sql
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/.mix from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/.mix
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Collectable.Postgrex.Stream.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Collectable.Postgrex.Stream.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.DBConnection.Query.Postgrex.Copy.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.DBConnection.Query.Postgrex.Copy.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.DBConnection.Query.Postgrex.Query.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.DBConnection.Query.Postgrex.Query.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Enumerable.Postgrex.Stream.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Enumerable.Postgrex.Stream.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.App.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.App.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.BinaryExtension.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.BinaryExtension.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.BinaryUtils.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.BinaryUtils.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Box.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Box.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Circle.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Circle.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Copy.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Copy.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Cursor.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Cursor.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.DefaultTypes.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.DefaultTypes.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Error.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Error.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.ErrorCode.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.ErrorCode.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Array.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Array.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.BitString.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.BitString.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Bool.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Bool.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Box.beam from /app_sync to /host_sync
+[2020-09-14 14:09:22 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Box.beam
+[2020-09-14 14:09:22 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Circle.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Circle.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Date.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Date.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Float8.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Float8.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.HStore.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.HStore.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.INET.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.INET.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Int2.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Int2.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Int4.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Int4.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Int8.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Int8.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Interval.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Interval.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.JSON.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.JSON.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.JSONB.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.JSONB.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Line.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Line.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.LineSegment.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.LineSegment.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.MACADDR.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.MACADDR.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Name.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Name.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Numeric.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Numeric.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.OID.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.OID.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Path.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Path.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Point.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Point.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Polygon.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Polygon.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Range.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Range.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Raw.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Raw.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Record.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Record.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.TID.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.TID.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.TSVector.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.TSVector.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Time.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.Time.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.TimeTZ.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.TimeTZ.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.TimestampTZ.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.TimestampTZ.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.UUID.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.UUID.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.VoidBinary.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.VoidBinary.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.VoidText.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Extensions.VoidText.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.INET.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.INET.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Interval.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Interval.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Lexeme.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Lexeme.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Line.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Line.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.LineSegment.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.LineSegment.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.MACADDR.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.MACADDR.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Messages.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Messages.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Notifications.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Notifications.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Path.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Path.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Point.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Point.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Polygon.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Polygon.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Protocol.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Protocol.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Query.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Query.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.QueryError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.QueryError.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Range.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Range.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Result.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Result.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.SCRAM.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.SCRAM.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Stream.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Stream.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.SuperExtension.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.SuperExtension.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.TypeInfo.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.TypeInfo.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.TypeServer.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.TypeServer.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.TypeSupervisor.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.TypeSupervisor.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Types.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Types.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Utils.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.Utils.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.Postgrex.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.String.Chars.Postgrex.Copy.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.String.Chars.Postgrex.Copy.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/Elixir.String.Chars.Postgrex.Query.beam from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/Elixir.String.Chars.Postgrex.Query.beam
+[2020-09-14 14:09:23 -0400] Sync Log:  [BGN] Copying _build/dev/lib/postgrex/ebin/postgrex.app from /app_sync to /host_sync
+[2020-09-14 14:09:23 -0400] Sync Log:  [END] Copying _build/dev/lib/postgrex/ebin/postgrex.app
+[2020-09-14 14:09:23 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:09:23.32 on 14 Sep 2020
+[2020-09-14 14:09:23 -0400] Sync Log:  Synchronization complete at 14:09:23  (79 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:09:24 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:09:24.43 on 14 Sep 2020
+[2020-09-14 14:09:24 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug from /app_sync to /host_sync
+[2020-09-14 14:09:24 -0400] Sync Log:  [END] Copying _build/dev/lib/plug
+[2020-09-14 14:09:24 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug_crypto from /app_sync to /host_sync
+[2020-09-14 14:09:24 -0400] Sync Log:  [END] Copying _build/dev/lib/plug_crypto
+[2020-09-14 14:09:24 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:09:24.53 on 14 Sep 2020
+[2020-09-14 14:09:24 -0400] Sync Log:  Synchronization complete at 14:09:24  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:09:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:09:26.57 on 14 Sep 2020
+[2020-09-14 14:09:26 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_html from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_html
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/.mix/compile.elixir from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/.mix/compile.elixir
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/.mix/compile.elixir_scm from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/.mix/compile.elixir_scm
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/.mix/compile.fetch from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/.mix/compile.fetch
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Collectable.Plug.Conn.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Collectable.Plug.Conn.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Inspect.Plug.Conn.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Inspect.Plug.Conn.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Adapters.Cowboy.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Adapters.Cowboy.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Adapters.Cowboy2.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Adapters.Cowboy2.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Adapters.Test.Conn.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Adapters.Test.Conn.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Application.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Application.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.BadRequestError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.BadRequestError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.BasicAuth.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.BasicAuth.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Builder.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Builder.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.CSRFProtection.InvalidCSRFTokenError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.CSRFProtection.InvalidCSRFTokenError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.CSRFProtection.InvalidCrossOriginRequestError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.CSRFProtection.InvalidCrossOriginRequestError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.CSRFProtection.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.CSRFProtection.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.Adapter.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.Adapter.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.AlreadySentError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.AlreadySentError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.CookieOverflowError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.CookieOverflowError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.Cookies.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.Cookies.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.InvalidHeaderError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.InvalidHeaderError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.InvalidQueryError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.InvalidQueryError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.NotSentError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.NotSentError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.Query.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.Query.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.Status.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.Status.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.Unfetched.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.Unfetched.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.Utils.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.Utils.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.WrapperError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.WrapperError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Conn.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Debugger.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Debugger.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.ErrorHandler.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.ErrorHandler.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Exception.Any.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Exception.Any.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Exception.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Exception.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.HTML.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.HTML.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Head.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Head.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Logger.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Logger.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.MIME.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.MIME.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.MethodOverride.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.MethodOverride.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.BadEncodingError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.BadEncodingError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.JSON.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.JSON.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.MULTIPART.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.MULTIPART.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.ParseError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.ParseError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.RequestTooLargeError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.RequestTooLargeError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.URLENCODED.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.URLENCODED.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.UnsupportedMediaTypeError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.UnsupportedMediaTypeError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Parsers.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.RequestId.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.RequestId.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Router.InvalidSpecError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Router.InvalidSpecError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Router.MalformedURIError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Router.MalformedURIError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Router.Utils.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Router.Utils.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Router.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Router.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.SSL.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.SSL.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Session.COOKIE.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Session.COOKIE.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Session.ETS.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Session.ETS.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Session.Store.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Session.Store.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Session.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Session.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Static.InvalidPathError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Static.InvalidPathError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Static.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Static.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Telemetry.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Telemetry.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Test.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Test.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.TimeoutError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.TimeoutError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Upload.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.Upload.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.UploadError.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.UploadError.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/Elixir.Plug.beam from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/Elixir.Plug.beam
+[2020-09-14 14:09:27 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug/ebin/plug.app from /app_sync to /host_sync
+[2020-09-14 14:09:27 -0400] Sync Log:  [END] Copying _build/dev/lib/plug/ebin/plug.app
+[2020-09-14 14:09:27 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:09:27.56 on 14 Sep 2020
+[2020-09-14 14:09:27 -0400] Sync Log:  Synchronization complete at 14:09:27  (65 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:09:29 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:09:28.67 on 14 Sep 2020
+[2020-09-14 14:09:29 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix from /app_sync to /host_sync
+[2020-09-14 14:09:29 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix
+[2020-09-14 14:09:29 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_reload from /app_sync to /host_sync
+[2020-09-14 14:09:29 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_reload
+[2020-09-14 14:09:29 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view from /app_sync to /host_sync
+[2020-09-14 14:09:29 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view
+[2020-09-14 14:09:29 -0400] Sync Log:  [BGN] Copying _build/dev/lib/plug_cowboy from /app_sync to /host_sync
+[2020-09-14 14:09:29 -0400] Sync Log:  [END] Copying _build/dev/lib/plug_cowboy
+[2020-09-14 14:09:29 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:09:29.39 on 14 Sep 2020
+[2020-09-14 14:09:29 -0400] Sync Log:  Synchronization complete at 14:09:29  (4 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:09:31 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:09:31.50 on 14 Sep 2020
+[2020-09-14 14:09:31 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_dashboard from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_dashboard
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/.mix from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/.mix
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Inspect.Phoenix.LiveView.Socket.AssignsNotInSocket.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Inspect.Phoenix.LiveView.Socket.AssignsNotInSocket.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Inspect.Phoenix.LiveView.Socket.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Inspect.Phoenix.LiveView.Socket.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Inspect.Phoenix.LiveViewTest.Element.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Inspect.Phoenix.LiveViewTest.Element.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Inspect.Phoenix.LiveViewTest.View.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Inspect.Phoenix.LiveViewTest.View.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.HTML.Safe.Phoenix.LiveComponent.CID.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.HTML.Safe.Phoenix.LiveComponent.CID.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.HTML.Safe.Phoenix.LiveView.Component.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.HTML.Safe.Phoenix.LiveView.Component.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.HTML.Safe.Phoenix.LiveView.Comprehension.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.HTML.Safe.Phoenix.LiveView.Comprehension.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.HTML.Safe.Phoenix.LiveView.Rendered.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.HTML.Safe.Phoenix.LiveView.Rendered.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveComponent.CID.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveComponent.CID.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveComponent.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveComponent.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Application.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Application.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Channel.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Channel.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Component.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Component.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Comprehension.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Comprehension.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Controller.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Controller.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Diff.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Diff.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Engine.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Engine.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Helpers.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Helpers.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Plug.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Plug.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Rendered.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Rendered.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Renderer.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Renderer.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Router.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Router.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Socket.AssignsNotInSocket.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Socket.AssignsNotInSocket.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Socket.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Socket.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Static.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Static.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Utils.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.Utils.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveView.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveViewTest.ClientProxy.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveViewTest.ClientProxy.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveViewTest.DOM.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveViewTest.DOM.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveViewTest.Element.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveViewTest.Element.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveViewTest.View.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveViewTest.View.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveViewTest.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.Phoenix.LiveViewTest.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.String.Chars.Phoenix.LiveComponent.CID.beam from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/Elixir.String.Chars.Phoenix.LiveComponent.CID.beam
+[2020-09-14 14:09:32 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_live_view/ebin/phoenix_live_view.app from /app_sync to /host_sync
+[2020-09-14 14:09:32 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_live_view/ebin/phoenix_live_view.app
+[2020-09-14 14:09:32 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:09:32.03 on 14 Sep 2020
+[2020-09-14 14:09:32 -0400] Sync Log:  Synchronization complete at 14:09:32  (36 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:09:33 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:09:33.09 on 14 Sep 2020
+[2020-09-14 14:09:33 -0400] Sync Log:  [BGN] Copying _build/dev/lib/phoenix_ecto from /app_sync to /host_sync
+[2020-09-14 14:09:33 -0400] Sync Log:  [END] Copying _build/dev/lib/phoenix_ecto
+[2020-09-14 14:09:33 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:09:33.21 on 14 Sep 2020
+[2020-09-14 14:09:33 -0400] Sync Log:  Synchronization complete at 14:09:33  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 14:13:32 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:13:31.53 on 14 Sep 2020
+[2020-09-14 14:13:32 -0400] Sync Log:  [BGN] Updating file config/dev.exs from /host_sync to /app_sync
+[2020-09-14 14:13:32 -0400] Sync Log:  [END] Updating file config/dev.exs
+[2020-09-14 14:13:32 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:13:31.53 on 14 Sep 2020
+[2020-09-14 14:13:32 -0400] Sync Log:  Synchronization complete at 14:13:31  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 14:13:45 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:13:44.45 on 14 Sep 2020
+[2020-09-14 14:13:45 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-14 14:13:45 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-14 14:13:45 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:13:44.45 on 14 Sep 2020
+[2020-09-14 14:13:45 -0400] Sync Log:  Synchronization complete at 14:13:44  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 14:15:05 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:15:05.28 on 14 Sep 2020
+[2020-09-14 14:15:05 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin from /app_sync to /host_sync
+[2020-09-14 14:15:05 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin
+[2020-09-14 14:15:05 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/priv from /app_sync to /host_sync
+[2020-09-14 14:15:05 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/priv
+[2020-09-14 14:15:05 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:15:05.30 on 14 Sep 2020
+[2020-09-14 14:15:05 -0400] Sync Log:  Synchronization complete at 14:15:05  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:15:06 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:15:06.31 on 14 Sep 2020
+[2020-09-14 14:15:06 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/.compile_priv_gettext from /app_sync to /host_sync
+[2020-09-14 14:15:06 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/.compile_priv_gettext
+[2020-09-14 14:15:06 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/.mix/compile.elixir from /app_sync to /host_sync
+[2020-09-14 14:15:06 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/.mix/compile.elixir
+[2020-09-14 14:15:06 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/.mix/compile.elixir_scm from /app_sync to /host_sync
+[2020-09-14 14:15:06 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/.mix/compile.elixir_scm
+[2020-09-14 14:15:06 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/consolidated from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/consolidated
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBread.Application.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBread.Application.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBread.Repo.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBread.Repo.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBread.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBread.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.ErrorHelpers.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.ErrorHelpers.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.ErrorView.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.ErrorView.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Gettext.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Gettext.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.LayoutView.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.LayoutView.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.PageController.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.PageController.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.PageView.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.PageView.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Router.Helpers.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Router.Helpers.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Router.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Router.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Telemetry.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Telemetry.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.UserSocket.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.UserSocket.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.beam from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.beam
+[2020-09-14 14:15:07 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/sliced_bread.app from /app_sync to /host_sync
+[2020-09-14 14:15:07 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/sliced_bread.app
+[2020-09-14 14:15:07 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:15:06.60 on 14 Sep 2020
+[2020-09-14 14:15:07 -0400] Sync Log:  Synchronization complete at 14:15:06  (20 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:15:08 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:15:07.64 on 14 Sep 2020
+[2020-09-14 14:15:08 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/.mix/compile.protocols from /app_sync to /host_sync
+[2020-09-14 14:15:08 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/.mix/compile.protocols
+[2020-09-14 14:15:08 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:15:07.64 on 14 Sep 2020
+[2020-09-14 14:15:08 -0400] Sync Log:  Synchronization complete at 14:15:07  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 14:16:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:16:25.53 on 14 Sep 2020
+[2020-09-14 14:16:26 -0400] Sync Log:  [BGN] Updating file config/dev.exs from /host_sync to /app_sync
+[2020-09-14 14:16:26 -0400] Sync Log:  [END] Updating file config/dev.exs
+[2020-09-14 14:16:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:16:25.53 on 14 Sep 2020
+[2020-09-14 14:16:26 -0400] Sync Log:  Synchronization complete at 14:16:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 14:16:32 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:16:32.27 on 14 Sep 2020
+[2020-09-14 14:16:32 -0400] Sync Log:  [BGN] Deleting _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Router.beam from /host_sync
+[2020-09-14 14:16:32 -0400] Sync Log:  [END] Deleting _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Router.beam
+[2020-09-14 14:16:32 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:16:32.27 on 14 Sep 2020
+[2020-09-14 14:16:32 -0400] Sync Log:  Synchronization complete at 14:16:32  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-14 14:16:33 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:16:33.28 on 14 Sep 2020
+[2020-09-14 14:16:33 -0400] Sync Log:  [BGN] Deleting _build/dev/lib/sliced_bread/.mix/compile.protocols from /host_sync
+[2020-09-14 14:16:33 -0400] Sync Log:  [END] Deleting _build/dev/lib/sliced_bread/.mix/compile.protocols
+[2020-09-14 14:16:33 -0400] Sync Log:  [BGN] Deleting _build/dev/lib/sliced_bread/consolidated/Elixir.Collectable.beam from /host_sync
+[2020-09-14 14:16:33 -0400] Sync Log:  [END] Deleting _build/dev/lib/sliced_bread/consolidated/Elixir.Collectable.beam
+[2020-09-14 14:16:33 -0400] Sync Log:  [BGN] Deleting _build/dev/lib/sliced_bread/consolidated/Elixir.Enumerable.beam from /host_sync
+[2020-09-14 14:16:33 -0400] Sync Log:  [END] Deleting _build/dev/lib/sliced_bread/consolidated/Elixir.Enumerable.beam
+[2020-09-14 14:16:33 -0400] Sync Log:  [BGN] Deleting _build/dev/lib/sliced_bread/consolidated/Elixir.IEx.Info.beam from /host_sync
+[2020-09-14 14:16:33 -0400] Sync Log:  [END] Deleting _build/dev/lib/sliced_bread/consolidated/Elixir.IEx.Info.beam
+[2020-09-14 14:16:33 -0400] Sync Log:  [BGN] Deleting _build/dev/lib/sliced_bread/consolidated/Elixir.Inspect.beam from /host_sync
+[2020-09-14 14:16:33 -0400] Sync Log:  [END] Deleting _build/dev/lib/sliced_bread/consolidated/Elixir.Inspect.beam
+[2020-09-14 14:16:33 -0400] Sync Log:  [BGN] Deleting _build/dev/lib/sliced_bread/consolidated/Elixir.Jason.Encoder.beam from /host_sync
+[2020-09-14 14:16:33 -0400] Sync Log:  [END] Deleting _build/dev/lib/sliced_bread/consolidated/Elixir.Jason.Encoder.beam
+[2020-09-14 14:16:33 -0400] Sync Log:  [BGN] Deleting _build/dev/lib/sliced_bread/consolidated/Elixir.Phoenix.HTML.Safe.beam from /host_sync
+[2020-09-14 14:16:33 -0400] Sync Log:  [END] Deleting _build/dev/lib/sliced_bread/consolidated/Elixir.Phoenix.HTML.Safe.beam
+[2020-09-14 14:16:33 -0400] Sync Log:  [BGN] Deleting _build/dev/lib/sliced_bread/consolidated/Elixir.String.Chars.beam from /host_sync
+[2020-09-14 14:16:33 -0400] Sync Log:  [END] Deleting _build/dev/lib/sliced_bread/consolidated/Elixir.String.Chars.beam
+[2020-09-14 14:16:33 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:16:33.29 on 14 Sep 2020
+[2020-09-14 14:16:33 -0400] Sync Log:  Synchronization complete at 14:16:33  (8 items transferred, 0 skipped, 0 failed)
+[2020-09-14 14:16:34 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 14:16:34.31 on 14 Sep 2020
+[2020-09-14 14:16:34 -0400] Sync Log:  [BGN] Updating file _build/dev/lib/sliced_bread/.mix/compile.elixir from /app_sync to /host_sync
+[2020-09-14 14:16:35 -0400] Sync Log:  [END] Updating file _build/dev/lib/sliced_bread/.mix/compile.elixir
+[2020-09-14 14:16:35 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/.mix/compile.protocols from /app_sync to /host_sync
+[2020-09-14 14:16:35 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/.mix/compile.protocols
+[2020-09-14 14:16:35 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/consolidated/Elixir.Collectable.beam from /app_sync to /host_sync
+[2020-09-14 14:16:35 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/consolidated/Elixir.Collectable.beam
+[2020-09-14 14:16:35 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/consolidated/Elixir.Enumerable.beam from /app_sync to /host_sync
+[2020-09-14 14:16:35 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/consolidated/Elixir.Enumerable.beam
+[2020-09-14 14:16:35 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/consolidated/Elixir.IEx.Info.beam from /app_sync to /host_sync
+[2020-09-14 14:16:35 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/consolidated/Elixir.IEx.Info.beam
+[2020-09-14 14:16:35 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/consolidated/Elixir.Inspect.beam from /app_sync to /host_sync
+[2020-09-14 14:16:35 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/consolidated/Elixir.Inspect.beam
+[2020-09-14 14:16:35 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/consolidated/Elixir.Jason.Encoder.beam from /app_sync to /host_sync
+[2020-09-14 14:16:35 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/consolidated/Elixir.Jason.Encoder.beam
+[2020-09-14 14:16:35 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/consolidated/Elixir.Phoenix.HTML.Safe.beam from /app_sync to /host_sync
+[2020-09-14 14:16:35 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/consolidated/Elixir.Phoenix.HTML.Safe.beam
+[2020-09-14 14:16:35 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/consolidated/Elixir.String.Chars.beam from /app_sync to /host_sync
+[2020-09-14 14:16:35 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/consolidated/Elixir.String.Chars.beam
+[2020-09-14 14:16:35 -0400] Sync Log:  [BGN] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Router.beam from /app_sync to /host_sync
+[2020-09-14 14:16:35 -0400] Sync Log:  [END] Copying _build/dev/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Router.beam
+[2020-09-14 14:16:35 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 14:16:34.40 on 14 Sep 2020
+[2020-09-14 14:16:35 -0400] Sync Log:  Synchronization complete at 14:16:34  (10 items transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_elixir-files
+          ok  sliced_bread_elixir-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_elixir-files
+[2020-09-15 16:26:46 -0400] Sync Log:  Synchronization complete at 16:24:58  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-15 16:26:46 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:26:45.70 on 15 Sep 2020
+[2020-09-15 16:26:46 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-15 16:26:46 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-15 16:26:46 -0400] Sync Log:  [BGN] Copying .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-15 16:26:46 -0400] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-09-15 16:26:46 -0400] Sync Log:  [BGN] Updating file do from /host_sync to /app_sync
+[2020-09-15 16:26:46 -0400] Sync Log:  [END] Updating file do
+[2020-09-15 16:26:46 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:26:45.70 on 15 Sep 2020
+[2020-09-15 16:26:46 -0400] Sync Log:  Synchronization complete at 16:26:45  (3 items transferred, 0 skipped, 0 failed)
+[2020-09-15 16:31:27 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:31:26.19 on 15 Sep 2020
+[2020-09-15 16:31:27 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-15 16:31:27 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-15 16:31:27 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:31:26.19 on 15 Sep 2020
+[2020-09-15 16:31:27 -0400] Sync Log:  Synchronization complete at 16:31:26  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-15 16:31:43 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:31:42.50 on 15 Sep 2020
+[2020-09-15 16:31:43 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /host_sync to /app_sync
+[2020-09-15 16:31:43 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-15 16:31:43 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:31:42.50 on 15 Sep 2020
+[2020-09-15 16:31:43 -0400] Sync Log:  Synchronization complete at 16:31:42  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-15 16:31:53 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:31:52.72 on 15 Sep 2020
+[2020-09-15 16:31:53 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-15 16:31:53 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-15 16:31:53 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:31:52.72 on 15 Sep 2020
+[2020-09-15 16:31:53 -0400] Sync Log:  Synchronization complete at 16:31:52  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_elixir-files
+          ok  sliced_bread_elixir-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_elixir-files
+[2020-09-15 16:32:36 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:31:42.50 on 15 Sep 2020
+[2020-09-15 16:32:36 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /host_sync to /app_sync
+[2020-09-15 16:32:36 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-15 16:32:36 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:31:42.50 on 15 Sep 2020
+[2020-09-15 16:32:36 -0400] Sync Log:  Synchronization complete at 16:31:42  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-15 16:32:36 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:31:52.72 on 15 Sep 2020
+[2020-09-15 16:32:36 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-15 16:32:36 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-15 16:32:36 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:31:52.72 on 15 Sep 2020
+[2020-09-15 16:32:36 -0400] Sync Log:  Synchronization complete at 16:31:52  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-15 16:32:37 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:32:37.02 on 15 Sep 2020
+[2020-09-15 16:32:37 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-15 16:32:37 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-15 16:32:37 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-15 16:32:37 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-09-15 16:32:37 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:32:37.02 on 15 Sep 2020
+[2020-09-15 16:32:37 -0400] Sync Log:  Synchronization complete at 16:32:37  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-15 16:34:41 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:34:41.87 on 15 Sep 2020
+[2020-09-15 16:34:41 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-15 16:34:41 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-15 16:34:41 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:34:41.87 on 15 Sep 2020
+[2020-09-15 16:34:41 -0400] Sync Log:  Synchronization complete at 16:34:41  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_elixir-files
+          ok  sliced_bread_elixir-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_elixir-files
+[2020-09-16 09:14:45 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-16 09:14:45 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:34:41.87 on 15 Sep 2020
+[2020-09-16 09:14:45 -0400] Sync Log:  Synchronization complete at 16:34:41  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:14:45 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:14:45.64 on 16 Sep 2020
+[2020-09-16 09:14:45 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-16 09:14:45 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-16 09:14:45 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-16 09:14:45 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-09-16 09:14:45 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:14:45.65 on 16 Sep 2020
+[2020-09-16 09:14:45 -0400] Sync Log:  Synchronization complete at 09:14:45  (2 items transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_elixir-files
+          ok  sliced_bread_elixir-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_elixir-files
+[2020-09-16 09:28:38 -0400] Sync Log:  Synchronization complete at 09:15:30  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:28:38 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:28:38.00 on 16 Sep 2020
+[2020-09-16 09:28:38 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-16 09:28:38 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-16 09:28:38 -0400] Sync Log:  [BGN] Copying .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-16 09:28:38 -0400] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-09-16 09:28:38 -0400] Sync Log:  [BGN] Updating file do from /host_sync to /app_sync
+[2020-09-16 09:28:38 -0400] Sync Log:  [END] Updating file do
+[2020-09-16 09:28:38 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:28:38.02 on 16 Sep 2020
+[2020-09-16 09:28:38 -0400] Sync Log:  Synchronization complete at 09:28:38  (3 items transferred, 0 skipped, 0 failed)
+[2020-09-16 09:29:25 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:29:24.81 on 16 Sep 2020
+[2020-09-16 09:29:25 -0400] Sync Log:  [BGN] Updating file do from /host_sync to /app_sync
+[2020-09-16 09:29:25 -0400] Sync Log:  [END] Updating file do
+[2020-09-16 09:29:25 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:29:24.82 on 16 Sep 2020
+[2020-09-16 09:29:25 -0400] Sync Log:  Synchronization complete at 09:29:24  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_elixir-files
+          ok  sliced_bread_elixir-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_elixir-files
+[2020-09-16 09:29:35 -0400] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-09-16 09:29:35 -0400] Sync Log:  [BGN] Updating file do from /host_sync to /app_sync
+[2020-09-16 09:29:35 -0400] Sync Log:  [END] Updating file do
+[2020-09-16 09:29:35 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:28:38.02 on 16 Sep 2020
+[2020-09-16 09:29:35 -0400] Sync Log:  Synchronization complete at 09:28:38  (3 items transferred, 0 skipped, 0 failed)
+[2020-09-16 09:29:35 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:29:24.81 on 16 Sep 2020
+[2020-09-16 09:29:35 -0400] Sync Log:  [BGN] Updating file do from /host_sync to /app_sync
+[2020-09-16 09:29:35 -0400] Sync Log:  [END] Updating file do
+[2020-09-16 09:29:35 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:29:24.82 on 16 Sep 2020
+[2020-09-16 09:29:35 -0400] Sync Log:  Synchronization complete at 09:29:24  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:29:36 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:29:35.59 on 16 Sep 2020
+[2020-09-16 09:29:36 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-16 09:29:36 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-16 09:29:36 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-16 09:29:36 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-09-16 09:29:36 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:29:35.60 on 16 Sep 2020
+[2020-09-16 09:29:36 -0400] Sync Log:  Synchronization complete at 09:29:35  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-16 09:38:18 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:38:17.60 on 16 Sep 2020
+[2020-09-16 09:38:18 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-16 09:38:18 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-16 09:38:18 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:38:17.60 on 16 Sep 2020
+[2020-09-16 09:38:18 -0400] Sync Log:  Synchronization complete at 09:38:17  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:39:47 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:39:46.93 on 16 Sep 2020
+[2020-09-16 09:39:47 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-16 09:39:47 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-16 09:39:47 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:39:46.93 on 16 Sep 2020
+[2020-09-16 09:39:47 -0400] Sync Log:  Synchronization complete at 09:39:46  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:40:08 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:40:07.98 on 16 Sep 2020
+[2020-09-16 09:40:08 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-16 09:40:08 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-16 09:40:08 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:40:07.98 on 16 Sep 2020
+[2020-09-16 09:40:08 -0400] Sync Log:  Synchronization complete at 09:40:07  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:40:22 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:40:21.94 on 16 Sep 2020
+[2020-09-16 09:40:22 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-16 09:40:22 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-16 09:40:22 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:40:21.94 on 16 Sep 2020
+[2020-09-16 09:40:22 -0400] Sync Log:  Synchronization complete at 09:40:21  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:42:06 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:42:05.81 on 16 Sep 2020
+[2020-09-16 09:42:06 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /host_sync to /app_sync
+[2020-09-16 09:42:06 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-16 09:42:06 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:42:05.81 on 16 Sep 2020
+[2020-09-16 09:42:06 -0400] Sync Log:  Synchronization complete at 09:42:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:42:19 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:42:18.51 on 16 Sep 2020
+[2020-09-16 09:42:19 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /host_sync to /app_sync
+[2020-09-16 09:42:19 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-16 09:42:19 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:42:18.51 on 16 Sep 2020
+[2020-09-16 09:42:19 -0400] Sync Log:  Synchronization complete at 09:42:18  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:42:24 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:42:23.93 on 16 Sep 2020
+[2020-09-16 09:42:24 -0400] Sync Log:  [BGN] Deleting _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam from /host_sync
+[2020-09-16 09:42:24 -0400] Sync Log:  [END] Deleting _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam
+[2020-09-16 09:42:24 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:42:23.94 on 16 Sep 2020
+[2020-09-16 09:42:24 -0400] Sync Log:  Synchronization complete at 09:42:23  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:42:25 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:42:24.95 on 16 Sep 2020
+[2020-09-16 09:42:25 -0400] Sync Log:  [BGN] Updating file _build/prod/lib/sliced_bread/.mix/compile.elixir from /app_sync to /host_sync
+[2020-09-16 09:42:25 -0400] Sync Log:  [END] Updating file _build/prod/lib/sliced_bread/.mix/compile.elixir
+[2020-09-16 09:42:25 -0400] Sync Log:  [BGN] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam from /app_sync to /host_sync
+[2020-09-16 09:42:25 -0400] Sync Log:  [END] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam
+[2020-09-16 09:42:25 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:42:24.97 on 16 Sep 2020
+[2020-09-16 09:42:25 -0400] Sync Log:  Synchronization complete at 09:42:24  (2 items transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_elixir-files
+          ok  sliced_bread_elixir-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_elixir-files
+[2020-09-16 09:51:31 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-16 09:51:31 -0400] Sync Log:  [BGN] Deleting .docker-sync/daemon.pid from /app_sync
+[2020-09-16 09:51:31 -0400] Sync Log:  [END] Deleting .docker-sync/daemon.pid
+[2020-09-16 09:51:31 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:44:47.93 on 16 Sep 2020
+[2020-09-16 09:51:31 -0400] Sync Log:  Synchronization complete at 09:44:47  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-16 09:51:31 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:45:08.42 on 16 Sep 2020
+[2020-09-16 09:51:31 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /host_sync to /app_sync
+[2020-09-16 09:51:31 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-16 09:51:31 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:45:08.42 on 16 Sep 2020
+[2020-09-16 09:51:31 -0400] Sync Log:  Synchronization complete at 09:45:08  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:51:32 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:51:32.33 on 16 Sep 2020
+[2020-09-16 09:51:32 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-16 09:51:32 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-16 09:51:32 -0400] Sync Log:  [BGN] Copying .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-16 09:51:32 -0400] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-09-16 09:51:32 -0400] Sync Log:  [BGN] Updating file _build/prod/lib/sliced_bread/.mix/compile.elixir from /app_sync to /host_sync
+[2020-09-16 09:51:32 -0400] Sync Log:  [END] Updating file _build/prod/lib/sliced_bread/.mix/compile.elixir
+[2020-09-16 09:51:32 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /host_sync to /app_sync
+[2020-09-16 09:51:32 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-16 09:51:32 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:51:32.34 on 16 Sep 2020
+[2020-09-16 09:51:32 -0400] Sync Log:  Synchronization complete at 09:51:32  (4 items transferred, 0 skipped, 0 failed)
+[2020-09-16 09:51:39 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:51:38.75 on 16 Sep 2020
+[2020-09-16 09:51:39 -0400] Sync Log:  [BGN] Deleting _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam from /host_sync
+[2020-09-16 09:51:39 -0400] Sync Log:  [END] Deleting _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam
+[2020-09-16 09:51:39 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:51:38.75 on 16 Sep 2020
+[2020-09-16 09:51:39 -0400] Sync Log:  Synchronization complete at 09:51:38  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:51:40 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:51:39.77 on 16 Sep 2020
+[2020-09-16 09:51:40 -0400] Sync Log:  [BGN] Updating file _build/prod/lib/sliced_bread/.mix/compile.elixir from /app_sync to /host_sync
+[2020-09-16 09:51:40 -0400] Sync Log:  [END] Updating file _build/prod/lib/sliced_bread/.mix/compile.elixir
+[2020-09-16 09:51:40 -0400] Sync Log:  [BGN] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam from /app_sync to /host_sync
+[2020-09-16 09:51:40 -0400] Sync Log:  [END] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam
+[2020-09-16 09:51:40 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:51:39.79 on 16 Sep 2020
+[2020-09-16 09:51:40 -0400] Sync Log:  Synchronization complete at 09:51:39  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-16 09:52:32 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:52:31.64 on 16 Sep 2020
+[2020-09-16 09:52:32 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /host_sync to /app_sync
+[2020-09-16 09:52:32 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-16 09:52:32 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:52:31.64 on 16 Sep 2020
+[2020-09-16 09:52:32 -0400] Sync Log:  Synchronization complete at 09:52:31  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:55:11 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:55:11.56 on 16 Sep 2020
+[2020-09-16 09:55:11 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-16 09:55:11 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-16 09:55:11 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:55:11.57 on 16 Sep 2020
+[2020-09-16 09:55:11 -0400] Sync Log:  Synchronization complete at 09:55:11  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_elixir-files
+          ok  sliced_bread_elixir-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_elixir-files
+[2020-09-16 09:55:21 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:52:31.64 on 16 Sep 2020
+[2020-09-16 09:55:21 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /host_sync to /app_sync
+[2020-09-16 09:55:21 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-16 09:55:21 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:52:31.64 on 16 Sep 2020
+[2020-09-16 09:55:21 -0400] Sync Log:  Synchronization complete at 09:52:31  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:55:21 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:55:11.56 on 16 Sep 2020
+[2020-09-16 09:55:21 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-16 09:55:21 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-16 09:55:21 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:55:11.57 on 16 Sep 2020
+[2020-09-16 09:55:21 -0400] Sync Log:  Synchronization complete at 09:55:11  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:55:22 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:55:22.33 on 16 Sep 2020
+[2020-09-16 09:55:22 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-16 09:55:22 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-16 09:55:22 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-16 09:55:22 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-09-16 09:55:22 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:55:22.34 on 16 Sep 2020
+[2020-09-16 09:55:22 -0400] Sync Log:  Synchronization complete at 09:55:22  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-16 09:55:29 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:55:29.51 on 16 Sep 2020
+[2020-09-16 09:55:29 -0400] Sync Log:  [BGN] Deleting _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam from /host_sync
+[2020-09-16 09:55:29 -0400] Sync Log:  [END] Deleting _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam
+[2020-09-16 09:55:29 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:55:29.51 on 16 Sep 2020
+[2020-09-16 09:55:29 -0400] Sync Log:  Synchronization complete at 09:55:29  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:55:30 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:55:30.52 on 16 Sep 2020
+[2020-09-16 09:55:30 -0400] Sync Log:  [BGN] Updating file _build/prod/lib/sliced_bread/.mix/compile.elixir from /app_sync to /host_sync
+[2020-09-16 09:55:30 -0400] Sync Log:  [END] Updating file _build/prod/lib/sliced_bread/.mix/compile.elixir
+[2020-09-16 09:55:30 -0400] Sync Log:  [BGN] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam from /app_sync to /host_sync
+[2020-09-16 09:55:30 -0400] Sync Log:  [END] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam
+[2020-09-16 09:55:30 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:55:30.54 on 16 Sep 2020
+[2020-09-16 09:55:30 -0400] Sync Log:  Synchronization complete at 09:55:30  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-16 09:56:04 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:56:04.62 on 16 Sep 2020
+[2020-09-16 09:56:04 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-16 09:56:04 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-16 09:56:04 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:56:04.62 on 16 Sep 2020
+[2020-09-16 09:56:04 -0400] Sync Log:  Synchronization complete at 09:56:04  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:56:38 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:56:38.31 on 16 Sep 2020
+[2020-09-16 09:56:38 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-16 09:56:38 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-16 09:56:38 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:56:38.31 on 16 Sep 2020
+[2020-09-16 09:56:38 -0400] Sync Log:  Synchronization complete at 09:56:38  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:56:55 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:56:55.36 on 16 Sep 2020
+[2020-09-16 09:56:55 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /host_sync to /app_sync
+[2020-09-16 09:56:55 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-16 09:56:55 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:56:55.36 on 16 Sep 2020
+[2020-09-16 09:56:55 -0400] Sync Log:  Synchronization complete at 09:56:55  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_elixir-files
+          ok  sliced_bread_elixir-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_elixir-files
+[2020-09-16 09:57:12 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:56:38.31 on 16 Sep 2020
+[2020-09-16 09:57:12 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-16 09:57:12 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-16 09:57:12 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:56:38.31 on 16 Sep 2020
+[2020-09-16 09:57:12 -0400] Sync Log:  Synchronization complete at 09:56:38  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:57:12 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:56:55.36 on 16 Sep 2020
+[2020-09-16 09:57:12 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /host_sync to /app_sync
+[2020-09-16 09:57:12 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-16 09:57:12 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:56:55.36 on 16 Sep 2020
+[2020-09-16 09:57:12 -0400] Sync Log:  Synchronization complete at 09:56:55  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:57:14 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:57:13.78 on 16 Sep 2020
+[2020-09-16 09:57:14 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-16 09:57:14 -0400] Sync Log:  Failed: The source file /host_sync/.docker-sync/daemon.log
+[2020-09-16 09:57:14 -0400] Sync Log:  has been modified during synchronization.  Transfer aborted.
+[2020-09-16 09:57:14 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-16 09:57:14 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-09-16 09:57:14 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:57:13.79 on 16 Sep 2020
+[2020-09-16 09:57:14 -0400] Sync Log:  Synchronization incomplete at 09:57:13  (1 item transferred, 0 skipped, 1 failed)
+[2020-09-16 09:57:14 -0400] Sync Log:    failed: .docker-sync/daemon.log
+[2020-09-16 09:57:15 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:57:14.80 on 16 Sep 2020
+[2020-09-16 09:57:15 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-16 09:57:15 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-16 09:57:15 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:57:14.80 on 16 Sep 2020
+[2020-09-16 09:57:15 -0400] Sync Log:  Synchronization complete at 09:57:14  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:57:20 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:57:20.42 on 16 Sep 2020
+[2020-09-16 09:57:20 -0400] Sync Log:  [BGN] Deleting _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam from /host_sync
+[2020-09-16 09:57:20 -0400] Sync Log:  [END] Deleting _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam
+[2020-09-16 09:57:20 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:57:20.43 on 16 Sep 2020
+[2020-09-16 09:57:20 -0400] Sync Log:  Synchronization complete at 09:57:20  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:57:21 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:57:21.45 on 16 Sep 2020
+[2020-09-16 09:57:21 -0400] Sync Log:  [BGN] Updating file _build/prod/lib/sliced_bread/.mix/compile.elixir from /app_sync to /host_sync
+[2020-09-16 09:57:21 -0400] Sync Log:  [END] Updating file _build/prod/lib/sliced_bread/.mix/compile.elixir
+[2020-09-16 09:57:21 -0400] Sync Log:  [BGN] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam from /app_sync to /host_sync
+[2020-09-16 09:57:21 -0400] Sync Log:  [END] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam
+[2020-09-16 09:57:21 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:57:21.46 on 16 Sep 2020
+[2020-09-16 09:57:21 -0400] Sync Log:  Synchronization complete at 09:57:21  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-16 09:59:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:59:26.16 on 16 Sep 2020
+[2020-09-16 09:59:26 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-16 09:59:26 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-16 09:59:26 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:59:26.16 on 16 Sep 2020
+[2020-09-16 09:59:26 -0400] Sync Log:  Synchronization complete at 09:59:26  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_elixir-files
+          ok  sliced_bread_elixir-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_elixir-files
+[2020-09-16 09:59:36 -0400] Sync Log:  [END] Updating file _build/prod/lib/sliced_bread/.mix/compile.elixir
+[2020-09-16 09:59:36 -0400] Sync Log:  [BGN] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam from /app_sync to /host_sync
+[2020-09-16 09:59:36 -0400] Sync Log:  [END] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam
+[2020-09-16 09:59:36 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:57:21.46 on 16 Sep 2020
+[2020-09-16 09:59:36 -0400] Sync Log:  Synchronization complete at 09:57:21  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-16 09:59:36 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:59:26.16 on 16 Sep 2020
+[2020-09-16 09:59:36 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-16 09:59:36 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-16 09:59:36 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:59:26.16 on 16 Sep 2020
+[2020-09-16 09:59:36 -0400] Sync Log:  Synchronization complete at 09:59:26  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 09:59:37 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 09:59:36.62 on 16 Sep 2020
+[2020-09-16 09:59:37 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-16 09:59:37 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-16 09:59:37 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-16 09:59:37 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-09-16 09:59:37 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 09:59:36.63 on 16 Sep 2020
+[2020-09-16 09:59:37 -0400] Sync Log:  Synchronization complete at 09:59:36  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-16 10:00:10 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:00:09.36 on 16 Sep 2020
+[2020-09-16 10:00:10 -0400] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-09-16 10:00:10 -0400] Sync Log:  [END] Updating file docker-compose.yml
+[2020-09-16 10:00:10 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:00:09.36 on 16 Sep 2020
+[2020-09-16 10:00:10 -0400] Sync Log:  Synchronization complete at 10:00:09  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 10:00:28 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:00:27.15 on 16 Sep 2020
+[2020-09-16 10:00:28 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /host_sync to /app_sync
+[2020-09-16 10:00:28 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-16 10:00:28 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:00:27.15 on 16 Sep 2020
+[2020-09-16 10:00:28 -0400] Sync Log:  Synchronization complete at 10:00:27  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 10:00:30 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:00:29.68 on 16 Sep 2020
+[2020-09-16 10:00:30 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /host_sync to /app_sync
+[2020-09-16 10:00:30 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-16 10:00:30 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:00:29.68 on 16 Sep 2020
+[2020-09-16 10:00:30 -0400] Sync Log:  Synchronization complete at 10:00:29  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_elixir-files
+          ok  sliced_bread_elixir-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_elixir-files
+[2020-09-16 10:00:39 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:00:27.15 on 16 Sep 2020
+[2020-09-16 10:00:39 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /host_sync to /app_sync
+[2020-09-16 10:00:39 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-16 10:00:39 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:00:27.15 on 16 Sep 2020
+[2020-09-16 10:00:39 -0400] Sync Log:  Synchronization complete at 10:00:27  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 10:00:39 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:00:29.68 on 16 Sep 2020
+[2020-09-16 10:00:39 -0400] Sync Log:  [BGN] Updating file config/prod.secret.exs from /host_sync to /app_sync
+[2020-09-16 10:00:39 -0400] Sync Log:  [END] Updating file config/prod.secret.exs
+[2020-09-16 10:00:39 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:00:29.68 on 16 Sep 2020
+[2020-09-16 10:00:39 -0400] Sync Log:  Synchronization complete at 10:00:29  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 10:00:40 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:00:39.54 on 16 Sep 2020
+[2020-09-16 10:00:40 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-16 10:00:40 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-16 10:00:40 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-16 10:00:40 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-09-16 10:00:40 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:00:39.54 on 16 Sep 2020
+[2020-09-16 10:00:40 -0400] Sync Log:  Synchronization complete at 10:00:39  (2 items transferred, 0 skipped, 0 failed)
+[2020-09-16 10:00:46 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:00:45.30 on 16 Sep 2020
+[2020-09-16 10:00:46 -0400] Sync Log:  [BGN] Deleting _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam from /host_sync
+[2020-09-16 10:00:46 -0400] Sync Log:  [END] Deleting _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam
+[2020-09-16 10:00:46 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:00:45.30 on 16 Sep 2020
+[2020-09-16 10:00:46 -0400] Sync Log:  Synchronization complete at 10:00:45  (1 item transferred, 0 skipped, 0 failed)
+[2020-09-16 10:00:47 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:00:46.32 on 16 Sep 2020
+[2020-09-16 10:00:47 -0400] Sync Log:  [BGN] Updating file _build/prod/lib/sliced_bread/.mix/compile.elixir from /app_sync to /host_sync
+[2020-09-16 10:00:47 -0400] Sync Log:  [END] Updating file _build/prod/lib/sliced_bread/.mix/compile.elixir
+[2020-09-16 10:00:47 -0400] Sync Log:  [BGN] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam from /app_sync to /host_sync
+[2020-09-16 10:00:47 -0400] Sync Log:  [END] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Endpoint.beam
+[2020-09-16 10:00:47 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:00:46.34 on 16 Sep 2020
+[2020-09-16 10:00:47 -0400] Sync Log:  Synchronization complete at 10:00:46  (2 items transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sliced_bread_elixir-files
+          ok  sliced_bread_elixir-files container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sliced_bread_elixir-files
+[2020-09-16 10:25:34 -0400] Sync Log:  [BGN] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Router.beam from /app_sync to /host_sync
+[2020-09-16 10:25:34 -0400] Sync Log:  [END] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Router.beam
+[2020-09-16 10:25:34 -0400] Sync Log:  [BGN] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Telemetry.beam from /app_sync to /host_sync
+[2020-09-16 10:25:34 -0400] Sync Log:  [END] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.Telemetry.beam
+[2020-09-16 10:25:34 -0400] Sync Log:  [BGN] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.UserSocket.beam from /app_sync to /host_sync
+[2020-09-16 10:25:34 -0400] Sync Log:  [END] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.UserSocket.beam
+[2020-09-16 10:25:34 -0400] Sync Log:  [BGN] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.beam from /app_sync to /host_sync
+[2020-09-16 10:25:34 -0400] Sync Log:  [END] Copying _build/prod/lib/sliced_bread/ebin/Elixir.SlicedBreadWeb.beam
+[2020-09-16 10:25:34 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:14:04.74 on 16 Sep 2020
+[2020-09-16 10:25:34 -0400] Sync Log:  Synchronization complete at 10:14:04  (16 items transferred, 0 skipped, 0 failed)
+[2020-09-16 10:25:35 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:25:34.63 on 16 Sep 2020
+[2020-09-16 10:25:35 -0400] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-09-16 10:25:35 -0400] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-09-16 10:25:35 -0400] Sync Log:  [BGN] Copying .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-09-16 10:25:35 -0400] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-09-16 10:25:35 -0400] Sync Log:  [BGN] Updating file Dockerfile from /host_sync to /app_sync
+[2020-09-16 10:25:35 -0400] Sync Log:  [END] Updating file Dockerfile
+[2020-09-16 10:25:35 -0400] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:25:34.65 on 16 Sep 2020
+[2020-09-16 10:25:35 -0400] Sync Log:  Synchronization complete at 10:25:34  (3 items transferred, 0 skipped, 0 failed)
