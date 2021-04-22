@@ -1,12 +1,11 @@
-# README
+# Ruby on Rails Setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+See the top-level `README.md` for the task to complete.
 
-
-### Getting Started
+## Getting Started
 
 From your shell:
+
 1. `./do bootstrap` - Prep your dev environment
 2. `./do build` - Build the docker containers and setup the app
 3. `./do start` - Start the app
