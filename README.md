@@ -49,3 +49,9 @@ We care about usability - Is it easy to use?
 We've created 2 shell applications that have been dockerized. These shell applications should provide you with a basic application that will allow you to get started really quickly.
 
 If you prefer to do the Greatest Beverage challenge in a different language, we ask that you provide a solution that is dockerized and can be built and started with minimal steps.
+
+### First step
+1. Clone this repo
+2. Code
+3. ?
+4. Create a Pull Request as your submission - include pertinent information for the reviewers in your PR description.
