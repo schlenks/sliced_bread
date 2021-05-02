@@ -1,0 +1,2 @@
+web: bin/sliced_bread
+release: lucky db.migrate
