@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  app_crystal:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3001:3001
+      - 3002:3002
+      - 5000:5000
+    working_dir: /app
+    command: bash -c "rm -f .overmind.sock && lucky dev"
+    volumes:
+      - .:/app:cached
+    depends_on:
+      - dbcrystal
+    environment:
+      DB_HOST: dbcrystal
+      DB_USERNAME: lucky
+      DB_PASSWORD: developer
+  dbcrystal:
+    image: postgres:13.2-alpine
+    volumes:
+      - data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: lucky
+      POSTGRES_PASSWORD: developer
+
+volumes:
+  data:

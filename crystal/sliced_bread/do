@@ -1,0 +1,119 @@
+#! /bin/bash
+
+set -e
+
+app-installs() {
+  echo "🚧 Do: shards install & yarn install."
+  shards-install
+  yarn-install
+  echo "🚧 Do: Installs finished."
+}
+
+build() {
+  echo "🚧 Do: Building docker containers."
+  COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose build app_crystal
+}
+
+dev-setup() {
+  echo "🚧 Do: Run shards install."
+  docker-compose run --rm app_crystal script/setup
+}
+shards-install() {
+  echo "🚧 Do: Run shards install."
+  docker-compose run --rm app_crystal shards install
+}
+
+migrate-db() {
+  echo "🚧 Do: Running migrations"
+  docker-compose run --rm app_crystal lucky db.migrate
+}
+
+perf() {
+  echo "🏎  Do: Performance benchmarking"
+  ab -c 30 -n 12000 "http://127.0.0.1:3001/"
+}
+
+prepare-test() {
+  docker-compose run --rm app_crystal lucky db.setup
+}
+
+test() {
+  if [[ -z "$ACTION_ARG" ]]
+  then
+    echo "🧪 Do: Running all tests"
+    docker-compose run --rm -e RAILS_ENV=test app_crystal crystal spec
+  else
+    echo "🧪 Do: Running your single test 👉 $ACTION_ARG"
+    docker-compose run --rm -e RAILS_ENV=test app_crystal crystal spec $ACTION_ARG
+  fi
+}
+
+start() {
+  docker-compose up
+}
+
+stop() {
+  echo "✋ Do: Stopping docker containers."
+  docker-compose stop
+}
+
+shell() {
+  case "${ACTION_ARG}" in
+    app)
+      echo "🐚 Do: Open a shell on the app_crystal container."
+       docker-compose run --rm app_crystal bash
+    ;;
+    db)
+      echo "🐚 Do: Open a shell on the db container."
+      docker exec -it sliced_bread_dbcrystal_1 psql -U postgres sliced_bread_development
+    ;;
+    *)
+      echo "⚠️  Unknown action. Please use 'app' or 'db' with the shell command."
+    ;;
+  esac
+}
+
+yarn-install() {
+  echo "🚧 Do: Run yarn install."
+  docker-compose run --rm app_crystal yarn install
+}
+
+echo "🍞 Welcome to Sliced Bread (Crystal) 🍞"
+ACTION=$1
+ACTION_ARG=$2
+
+case "${ACTION}" in
+  build)
+    stop
+    build
+    dev-setup
+    app-installs
+    prepare-test
+    echo "👍 Build complete."
+  ;;
+  install)
+    app-installs
+  ;;
+  migrate)
+    migrate-db
+  ;;
+  perf)
+    perf
+  ;;
+  shell)
+    shell
+  ;;
+  start)
+    stop
+    start
+  ;;
+  stop)
+    stop
+  ;;
+  test)
+    test
+  ;;
+  *)
+    echo "⚠️  Unknown action. Please use 'build', 'install', 'migrate', 'perf', 'test', 'shell', 'start', 'stop'"
+  ;;
+esac
