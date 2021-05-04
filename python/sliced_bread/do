@@ -32,10 +32,10 @@ test() {
   if [[ -z "$ACTION_ARG" ]]
   then
     echo "🧪 Do: Running all tests"
-    docker-compose run --rm -e RAILS_ENV=test app_python python manage.py test
+    docker-compose run --rm -e app_python python manage.py test
   else
     echo "🧪 Do: Running your single test 👉 $ACTION_ARG"
-    docker-compose run --rm -e RAILS_ENV=test app_python python manage.py test $ACTION_ARG
+    docker-compose run --rm -e app_python python manage.py test $ACTION_ARG
   fi
 }
 
