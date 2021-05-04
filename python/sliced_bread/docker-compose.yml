@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  app_python:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    working_dir: /app
+    command: bash -c "python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - ./db.sqlite3:/app/db.sqlite3
+      - .:/app:cached
+
+volumes:
+  data:

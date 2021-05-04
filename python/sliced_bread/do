@@ -1,0 +1,99 @@
+#! /bin/bash
+
+set -e
+
+app-installs() {
+  echo "🚧 Do: pip install"
+  pip-install
+  echo "🚧 Do: Installs finished."
+}
+
+build() {
+  echo "🚧 Do: Building docker containers."
+  COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose build app_python
+}
+
+pip-install() {
+  echo "🚧 Do: Run pip install."
+  docker-compose run --rm app_python python -m pip install -r requirements.txt
+}
+
+migrate-db() {
+  echo "🚧 Do: Running migrations"
+  docker-compose run --rm app_python python manage.py migrate
+}
+
+perf() {
+  echo "🏎  Do: Performance benchmarking"
+  ab -c 30 -n 12000 "http://127.0.0.1:3001/"
+}
+
+test() {
+  if [[ -z "$ACTION_ARG" ]]
+  then
+    echo "🧪 Do: Running all tests"
+    docker-compose run --rm -e RAILS_ENV=test app_python python manage.py test
+  else
+    echo "🧪 Do: Running your single test 👉 $ACTION_ARG"
+    docker-compose run --rm -e RAILS_ENV=test app_python python manage.py test $ACTION_ARG
+  fi
+}
+
+start() {
+  docker-compose up
+}
+
+stop() {
+  echo "✋ Do: Stopping docker containers."
+  docker-compose stop
+}
+
+shell() {
+  case "${ACTION_ARG}" in
+    app)
+      echo "🐚 Do: Open a shell on the app_python container."
+       docker-compose run --rm app_python bash
+    ;;
+    *)
+      echo "⚠️  Unknown action. Please use 'app' or 'db' with the shell command."
+    ;;
+  esac
+}
+
+echo "🍞 Welcome to Sliced Bread (Python/Django) 🍞"
+ACTION=$1
+ACTION_ARG=$2
+
+case "${ACTION}" in
+  build)
+    stop
+    build
+    app-installs
+    echo "👍 Build complete."
+  ;;
+  install)
+    app-installs
+  ;;
+  migrate)
+    migrate-db
+  ;;
+  perf)
+    perf
+  ;;
+  shell)
+    shell
+  ;;
+  start)
+    stop
+    start
+  ;;
+  stop)
+    stop
+  ;;
+  test)
+    test
+  ;;
+  *)
+    echo "⚠️  Unknown action. Please use 'build', 'install', 'migrate', 'perf', 'test', 'shell', 'start', 'stop'"
+  ;;
+esac
