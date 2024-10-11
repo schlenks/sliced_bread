@@ -1,0 +1,91 @@
+#! /bin/bash
+
+set -e
+
+app-installs() {
+  echo "🚧 Do: npm install"
+  npm-install
+  echo "🚧 Do: Installs finished."
+}
+
+build() {
+  echo "🚧 Do: Building docker containers."
+  COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose build app_typescript
+}
+
+npm-install() {
+  echo "🚧 Do: Run npm install."
+  docker-compose run --rm app_typescript npm install --legacy-peer-deps
+}
+
+perf() {
+  echo "🏎  Do: Performance benchmarking"
+  ab -c 30 -n 12000 "http://127.0.0.1:3000/"
+}
+
+test() {
+  if [[ -z "$ACTION_ARG" ]]
+  then
+    echo "🧪 Do: Running all tests"
+    docker-compose run --rm app_typescript npm test
+  else
+    echo "🧪 Do: Running your single test 👉 $ACTION_ARG"
+    docker-compose run --rm app_typescript npm test $ACTION_ARG
+  fi
+}
+
+start() {
+  docker-compose up
+}
+
+stop() {
+  echo "✋ Do: Stopping docker containers."
+  docker-compose stop
+}
+
+shell() {
+  case "${ACTION_ARG}" in
+    app)
+      echo "🐚 Do: Open a shell on the app_typescript container."
+       docker-compose run --rm app_typescript bash
+    ;;
+    *)
+      echo "⚠️  Unknown action. Please use 'app' with the shell command."
+    ;;
+  esac
+}
+
+echo "🍞 Welcome to Sliced Bread (Typescript/Next.js) 🍞"
+ACTION=$1
+ACTION_ARG=$2
+
+case "${ACTION}" in
+  build)
+    stop
+    build
+    app-installs
+    echo "👍 Build complete."
+  ;;
+  install)
+    app-installs
+  ;;
+  perf)
+    perf
+  ;;
+  shell)
+    shell
+  ;;
+  start)
+    stop
+    start
+  ;;
+  stop)
+    stop
+  ;;
+  test)
+    test
+  ;;
+  *)
+    echo "⚠️  Unknown action. Please use 'build', 'install', 'perf', 'test', 'shell', 'start', 'stop'"
+  ;;
+esac
